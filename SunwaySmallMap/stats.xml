@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2026-04-01T15:50:30.126966+08:00 by Eclipse SUMO sumo 1.26.0
+<sumoConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="D:\6Sumo\SunwayMapDQN\SunwaySmallMap\osm.net.xml"/>
+        <route-files value="D:\6Sumo\SunwayMapDQN\SunwaySmallMap\self_request.rou.xml,D:\6Sumo\SunwayMapDQN\SunwaySmallMap\taxi_more.rou.xml"/>
+    </input>
+
+    <output>
+        <tripinfo-output value="D:\6Sumo\SunwayMapDQN\SunwaySmallMap\tripinfos.xml"/>
+        <statistic-output value="D:\6Sumo\SunwayMapDQN\SunwaySmallMap\stats.xml"/>
+    </output>
+
+    <time>
+        <step-length value="1.0"/>
+    </time>
+
+    <processing>
+        <ignore-route-errors value="true"/>
+        <tls.actuated.jam-threshold value="30"/>
+    </processing>
+
+    <routing>
+        <device.rerouting.adaptation-steps value="18"/>
+        <device.rerouting.adaptation-interval value="10"/>
+    </routing>
+
+    <report>
+        <verbose value="true"/>
+        <duration-log.statistics value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+    <taxi_device>
+        <device.taxi.dispatch-algorithm value="traci"/>
+        <device.taxi.idle-algorithm value="stop"/>
+    </taxi_device>
+
+    <traci_server>
+        <remote-port value="54460"/>
+    </traci_server>
+
+    <gui_only>
+        <gui-settings-file value="D:\6Sumo\SunwayMapDQN\SunwaySmallMap\osm.view.xml"/>
+    </gui_only>
+
+</sumoConfiguration>
+-->
+
+<statistics xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/statistic_file.xsd">
+    <performance clockBegin="410724.96" clockEnd="410983.23" clockDuration="258.27" traciDuration="257.94" realTimeFactor="2.63" vehicleUpdatesPerSecond="39.49" personUpdatesPerSecond="332.44" begin="0.00" end="680.00" duration="680.00"/>
+    <vehicles loaded="15" inserted="15" running="15" waiting="0"/>
+    <teleports total="2" jam="0" yield="0" wrongLane="2"/>
+    <safety collisions="0" emergencyStops="0" emergencyBraking="0"/>
+    <persons loaded="477" running="372" jammed="0"/>
+    <personTeleports total="0" abortWait="0" wrongDest="0"/>
+    <vehicleTripStatistics count="0" routeLength="0.00" speed="0.00" duration="0.00" waitingTime="0.00" timeLoss="0.00" departDelay="0.00" departDelayWaiting="-1.00" totalTravelTime="0.00" totalDepartDelay="0.00"/>
+    <pedestrianStatistics number="0" routeLength="0.00" duration="0.00" timeLoss="0.00"/>
+    <rideStatistics number="3" waitingTime="268.67" routeLength="1571.57" duration="205.67" bus="0" train="0" taxi="3" bike="0" aborted="0"/>
+    <transportStatistics number="0"/>
+</statistics>
