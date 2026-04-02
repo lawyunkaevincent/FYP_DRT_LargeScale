@@ -43,7 +43,7 @@ import traci
 # ---------------------------------------------------------------------------
 
 NORMALIZE_SCORE_COMPONENTS = True
-MAX_SERVICE_SEQ = 20
+MAX_SERVICE_SEQ = 40
 
 # For very large / skewed terms, compress first before normalization
 LOG_SCALE_KEYS = {

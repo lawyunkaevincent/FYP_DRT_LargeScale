@@ -207,30 +207,5 @@ if __name__ == "__main__":
         total_candidates=len(edge_ids),
     )
     
-    # code for analyzing using connectivity report
-    base_dir = Path.cwd()
-
-    results, total_candidates = SumoConnectivityChecker.load_json(
-        str(base_dir / "connectivity_report.json")
-    )
-
-    ranked = SumoConnectivityChecker.rank_bad_edges(results)
-
-    print("\nWorst edges:")
-    for item in ranked[:]:
-        reachable_count = total_candidates - 1 - item.unreachable_count
-        print(
-            item.edge_id,
-            "unreachable =", item.unreachable_count,
-            "reachable =", reachable_count,
-        )
-
-    bad_edges = SumoConnectivityChecker.flagged_edges(
-        results,
-        min_unreachable=1500,
-        total_candidates=total_candidates,
-    )
-
-    print(f"\nFlagged edges: {len(bad_edges)}")
     
     

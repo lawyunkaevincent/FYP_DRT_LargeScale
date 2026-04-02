@@ -3,24 +3,14 @@
     <vType id="myTaxi" vClass="taxi" color="yellow" personCapacity="13">
         <param key="has.taxi.device" value="true" />
     </vType>
-    <trip id="t_0" type="myTaxi" depart="0" from="-371139407#3" to="-371139407#3" />
-    <trip id="t_1" type="myTaxi" depart="0" from="-25717491" to="-25717491" />
-    <trip id="t_2" type="myTaxi" depart="0" from="1432317802" to="1432317802" />
-    <trip id="t_3" type="myTaxi" depart="0" from="1253111317" to="1253111317" />
-    <trip id="t_4" type="myTaxi" depart="0" from="102678329#1" to="102678329#1" />
-    <trip id="t_5" type="myTaxi" depart="0" from="-495024963#8" to="-495024963#8" />
-    <trip id="t_6" type="myTaxi" depart="0" from="-371139407#2" to="-371139407#2" />
-    <trip id="t_7" type="myTaxi" depart="0" from="775140683#2" to="775140683#2" />
-    <trip id="t_8" type="myTaxi" depart="0" from="-371128539#1" to="-371128539#1" />
-    <trip id="t_9" type="myTaxi" depart="0" from="402934744#4" to="402934744#4" />
-    <trip id="t_10" type="myTaxi" depart="0" from="-25717814#0" to="-25717814#0" />
-    <trip id="t_11" type="myTaxi" depart="0" from="888532983#1" to="888532983#1" />
-    <trip id="t_12" type="myTaxi" depart="0" from="776320079#1" to="776320079#1" />
-    <trip id="t_13" type="myTaxi" depart="0" from="102678329#0" to="102678329#0" />
-    <trip id="t_14" type="myTaxi" depart="0" from="1157697968" to="1157697968" />
-    <trip id="t_15" type="myTaxi" depart="0" from="53561467" to="53561467" />
-    <trip id="t_16" type="myTaxi" depart="0" from="775140683#1" to="775140683#1" />
-    <trip id="t_17" type="myTaxi" depart="0" from="886367121#6" to="886367121#6" />
-    <trip id="t_18" type="myTaxi" depart="0" from="-371130049#4" to="-371130049#4" />
-    <trip id="t_19" type="myTaxi" depart="0" from="344412436#0" to="344412436#0" />
+    <trip id="t_0" type="myTaxi" depart="0" from="-53561361#0" to="-53561361#0" />
+    <trip id="t_1" type="myTaxi" depart="0" from="-210983363" to="-210983363" />
+    <trip id="t_2" type="myTaxi" depart="0" from="1079659299#0" to="1079659299#0" />
+    <trip id="t_3" type="myTaxi" depart="0" from="-884054432#3" to="-884054432#3" />
+    <trip id="t_4" type="myTaxi" depart="0" from="-53658194" to="-53658194" />
+    <trip id="t_5" type="myTaxi" depart="0" from="-53561416#2" to="-53561416#2" />
+    <trip id="t_6" type="myTaxi" depart="0" from="-495024963#0" to="-495024963#0" />
+    <trip id="t_7" type="myTaxi" depart="0" from="53655547#5" to="53655547#5" />
+    <trip id="t_8" type="myTaxi" depart="0" from="-371139410#1" to="-371139410#1" />
+    <trip id="t_9" type="myTaxi" depart="0" from="371130049#2" to="371130049#2" />
 </routes>
