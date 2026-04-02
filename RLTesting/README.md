@@ -1,7 +1,7 @@
 Run the code with the following command:
 
 To run the dispactcher at the DQN folder:
-python .\dispatcher.py --cfg D:\6Sumo\SunwayMapDQN\SunwaySmallMap\osm.sumocfg   
+python .\dispatcher.py --cfg D:\FYP\DQNLargeScale1\SunwaySmallMap\osm.sumocfg   
 
 To generate the request: 
 python .\request_chain_generator.py --report D:\FYP\FYP-DRT\SmallTestingMap\connectivity_report.json --taxi D:\FYP\FYP-DRT\SmallTestingMap\map.rou.xml --output D:\FYP\FYP-DRT\SmallTestingMap\persontrips_scale.rou.xml --num-requests 200 --depart-step 25 75 200 --max-random-deviation-pct 10
@@ -11,4 +11,4 @@ python request_chain_generator.py --report D:\6Sumo\SunwayMapDQN\SunwaySmallMap\
 
 
 To generate the taxi based on the request chain edges:
-python generate_taxi.py --stops D:\6Sumo\SunwayMapDQN\SunwaySmallMap\stops.json --output D:\6Sumo\SunwayMapDQN\SunwaySmallMap\taxi_more.rou.xml --num-taxis 15 --depart 0 --vtype-id myTaxi --color yellow --person-capacity 13 --seed 42
+python generate_taxi.py --stops D:\FYP\DQNLargeScale1\SunwaySmallMap\stops.json --output D:\FYP\DQNLargeScale1\SunwaySmallMap\taxi_more.rou.xml --num-taxis 20 --depart 0 --vtype-id myTaxi --color yellow --person-capacity 13 --seed 42

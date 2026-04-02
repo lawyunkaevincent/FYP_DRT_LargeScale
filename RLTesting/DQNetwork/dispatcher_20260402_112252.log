@@ -1,0 +1,1235 @@
+  Log file: dispatcher_20260402_112252.log
+
+========================================================================
+  SUMO Heuristic DRT Dispatcher starting...
+========================================================================
+  [LAZY-REGISTER] state=0 taxi=t_0 known=False
+CAPACITY OF TAXI: 10
+  [INIT] Registered taxi t_0 (capacity=10)
+  [LAZY-REGISTER] state=0 taxi=t_1 known=False
+CAPACITY OF TAXI: 10
+  [INIT] Registered taxi t_1 (capacity=10)
+  [LAZY-REGISTER] state=0 taxi=t_2 known=False
+CAPACITY OF TAXI: 10
+  [INIT] Registered taxi t_2 (capacity=10)
+  [LAZY-REGISTER] state=0 taxi=t_3 known=False
+CAPACITY OF TAXI: 10
+  [INIT] Registered taxi t_3 (capacity=10)
+  [LAZY-REGISTER] state=0 taxi=t_4 known=False
+CAPACITY OF TAXI: 10
+  [INIT] Registered taxi t_4 (capacity=10)
+  [LAZY-REGISTER] state=0 taxi=t_5 known=False
+CAPACITY OF TAXI: 10
+  [INIT] Registered taxi t_5 (capacity=10)
+  [LAZY-REGISTER] state=0 taxi=t_6 known=False
+CAPACITY OF TAXI: 10
+  [INIT] Registered taxi t_6 (capacity=10)
+  [LAZY-REGISTER] state=0 taxi=t_7 known=False
+CAPACITY OF TAXI: 10
+  [INIT] Registered taxi t_7 (capacity=10)
+  [LAZY-REGISTER] state=0 taxi=t_8 known=False
+CAPACITY OF TAXI: 10
+  [INIT] Registered taxi t_8 (capacity=10)
+  [LAZY-REGISTER] state=0 taxi=t_9 known=False
+CAPACITY OF TAXI: 10
+  [INIT] Registered taxi t_9 (capacity=10)
+  [LAZY-REGISTER] state=0 taxi=t_10 known=False
+CAPACITY OF TAXI: 10
+  [INIT] Registered taxi t_10 (capacity=10)
+  [LAZY-REGISTER] state=0 taxi=t_11 known=False
+CAPACITY OF TAXI: 10
+  [INIT] Registered taxi t_11 (capacity=10)
+  [LAZY-REGISTER] state=0 taxi=t_12 known=False
+CAPACITY OF TAXI: 10
+  [INIT] Registered taxi t_12 (capacity=10)
+  [LAZY-REGISTER] state=0 taxi=t_13 known=False
+CAPACITY OF TAXI: 10
+  [INIT] Registered taxi t_13 (capacity=10)
+  [LAZY-REGISTER] state=0 taxi=t_14 known=False
+CAPACITY OF TAXI: 10
+  [INIT] Registered taxi t_14 (capacity=10)
+  [LAZY-REGISTER] state=0 taxi=t_15 known=False
+CAPACITY OF TAXI: 10
+  [INIT] Registered taxi t_15 (capacity=10)
+  [LAZY-REGISTER] state=0 taxi=t_16 known=False
+CAPACITY OF TAXI: 10
+  [INIT] Registered taxi t_16 (capacity=10)
+  [LAZY-REGISTER] state=0 taxi=t_17 known=False
+CAPACITY OF TAXI: 10
+  [INIT] Registered taxi t_17 (capacity=10)
+  [LAZY-REGISTER] state=0 taxi=t_18 known=False
+CAPACITY OF TAXI: 10
+  [INIT] Registered taxi t_18 (capacity=10)
+  [LAZY-REGISTER] state=0 taxi=t_19 known=False
+CAPACITY OF TAXI: 10
+  [INIT] Registered taxi t_19 (capacity=10)
+  [NEW REQUEST] person=0  res=0  1253111326 → 53561468  direct_tt=0.0s
+New arrivals: ['0'], pickups: [], dropoffs: []
+
+════════════════════════════════════════════════════════════════════════
+  TICK #0001  t=    10.0s  [MEANINGFUL]
+  Events this tick:
+    + Arrivals  : ['0']
+  Requests  : pending=1  assigned=0  onboard=0  completed=0
+  Wait times: avg=0.0s  max=0.0s
+  Fleet     : active=0  idle=20  total=20
+    taxi    t_0: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_1: IDLE                   load=0  stops=[(no stops)]
+    taxi   t_10: IDLE                   load=0  stops=[(no stops)]
+    taxi   t_11: IDLE                   load=0  stops=[(no stops)]
+    taxi   t_12: IDLE                   load=0  stops=[(no stops)]
+    taxi   t_13: IDLE                   load=0  stops=[(no stops)]
+    taxi   t_14: IDLE                   load=0  stops=[(no stops)]
+    taxi   t_15: IDLE                   load=0  stops=[(no stops)]
+    taxi   t_16: IDLE                   load=0  stops=[(no stops)]
+    taxi   t_17: IDLE                   load=0  stops=[(no stops)]
+    taxi   t_18: IDLE                   load=0  stops=[(no stops)]
+    taxi   t_19: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_2: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_3: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_4: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_5: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_6: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_7: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_8: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_9: IDLE                   load=0  stops=[(no stops)]
+  Interval accumulator: Accumulator(wait=0.0ps ride=0.0s empty=0.0m done=0 violations=0 dt=10.0s)
+════════════════════════════════════════════════════════════════════════
+  Replanable taxis this tick: ['t_0', 't_1', 't_10', 't_11', 't_12', 't_13', 't_14', 't_15', 't_16', 't_17', 't_18', 't_19', 't_2', 't_3', 't_4', 't_5', 't_6', 't_7', 't_8', 't_9']
+  Future taxi stop plans:
+    t_0: []
+    t_1: []
+    t_10: []
+    t_11: []
+    t_12: []
+    t_13: []
+    t_14: []
+    t_15: []
+    t_16: []
+    t_17: []
+    t_18: []
+    t_19: []
+    t_2: []
+    t_3: []
+    t_4: []
+    t_5: []
+    t_6: []
+    t_7: []
+    t_8: []
+    t_9: []
+
+  ┌─ TOP-5 CANDIDATES for request 0 (person 0) waited 0.0s ─┐
+  │  #1  taxi=  t_17  pu_idx=0  do_idx=1  +route=  +0.0s  max_delay=  0.0s  pu_eta=  169.4s [ACTIVATES IDLE TAXI]  score=-3.63
+  │  #2  taxi=  t_18  pu_idx=0  do_idx=1  +route=  +0.0s  max_delay=  0.0s  pu_eta=  181.6s [ACTIVATES IDLE TAXI]  score=-3.63
+  │  #3  taxi=  t_19  pu_idx=0  do_idx=1  +route=  +0.0s  max_delay=  0.0s  pu_eta=  158.8s [ACTIVATES IDLE TAXI]  score=-3.64
+  │  #4  taxi=  t_15  pu_idx=0  do_idx=1  +route=  +0.0s  max_delay=  0.0s  pu_eta=  145.8s [ACTIVATES IDLE TAXI]  score=-3.64
+  │  #5  taxi=  t_13  pu_idx=0  do_idx=1  +route=  +0.0s  max_delay=  0.0s  pu_eta=  141.7s [ACTIVATES IDLE TAXI]  score=-3.66
+  └──────────────────────────────────────────────────────────────────────
+  → ASSIGNED req=0 → taxi=t_17  pu_eta=169.4s  (flush pending)
+  → DISPATCHED taxi=t_17 reservations=['0', '0']
+  [NEW REQUEST] person=1  res=1  371128537 → 886367121#6  direct_tt=135.7s
+New arrivals: ['1'], pickups: [], dropoffs: []
+
+════════════════════════════════════════════════════════════════════════
+  TICK #0003  t=    30.0s  [MEANINGFUL]
+  Events this tick:
+    + Arrivals  : ['1']
+  Requests  : pending=1  assigned=1  onboard=0  completed=0
+  Wait times: avg=0.0s  max=0.0s
+  Fleet     : active=1  idle=19  total=20
+    taxi    t_0: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_1: IDLE                   load=0  stops=[(no stops)]
+    taxi   t_10: IDLE                   load=0  stops=[(no stops)]
+    taxi   t_11: IDLE                   load=0  stops=[(no stops)]
+    taxi   t_12: IDLE                   load=0  stops=[(no stops)]
+    taxi   t_13: IDLE                   load=0  stops=[(no stops)]
+    taxi   t_14: IDLE                   load=0  stops=[(no stops)]
+    taxi   t_15: IDLE                   load=0  stops=[(no stops)]
+    taxi   t_16: IDLE                   load=0  stops=[(no stops)]
+    taxi   t_17: PICKUP                 load=0  stops=[Stop(PU req=0 eta=173.9s)  Stop(DO req=0 eta=infs)]
+    taxi   t_18: IDLE                   load=0  stops=[(no stops)]
+    taxi   t_19: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_2: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_3: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_4: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_5: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_6: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_7: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_8: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_9: IDLE                   load=0  stops=[(no stops)]
+  Interval accumulator: Accumulator(wait=0.0ps ride=0.0s empty=159.2m done=0 violations=0 dt=20.0s)
+════════════════════════════════════════════════════════════════════════
+  Replanable taxis this tick: ['t_0', 't_1', 't_10', 't_11', 't_12', 't_13', 't_14', 't_15', 't_16', 't_17', 't_18', 't_19', 't_2', 't_3', 't_4', 't_5', 't_6', 't_7', 't_8', 't_9']
+  Future taxi stop plans:
+    t_0: []
+    t_1: []
+    t_10: []
+    t_11: []
+    t_12: []
+    t_13: []
+    t_14: []
+    t_15: []
+    t_16: []
+    t_17: [PU(0)@173.9, DO(0)@inf]
+    t_18: []
+    t_19: []
+    t_2: []
+    t_3: []
+    t_4: []
+    t_5: []
+    t_6: []
+    t_7: []
+    t_8: []
+    t_9: []
+
+  ┌─ TOP-5 CANDIDATES for request 1 (person 1) waited 0.0s ─┐
+  │  #1  taxi=  t_16  pu_idx=0  do_idx=1  +route=  +0.0s  max_delay=  0.0s  pu_eta=  255.6s [ACTIVATES IDLE TAXI]  score=-3.53
+  │  #2  taxi=  t_14  pu_idx=0  do_idx=1  +route=  +0.0s  max_delay=  0.0s  pu_eta=  254.1s [ACTIVATES IDLE TAXI]  score=-3.53
+  │  #3  taxi=   t_7  pu_idx=0  do_idx=1  +route=  +0.0s  max_delay=  0.0s  pu_eta=  255.3s [ACTIVATES IDLE TAXI]  score=-3.57
+  │  #4  taxi=   t_3  pu_idx=0  do_idx=1  +route=  +0.0s  max_delay=  0.0s  pu_eta=    infs [ACTIVATES IDLE TAXI]  score=-3.60
+  │  #5  taxi=  t_19  pu_idx=0  do_idx=1  +route=  +0.0s  max_delay=  0.0s  pu_eta=  122.7s [ACTIVATES IDLE TAXI]  score=-3.90
+  └──────────────────────────────────────────────────────────────────────
+  → ASSIGNED req=1 → taxi=t_16  pu_eta=255.6s  (flush pending)
+  → DISPATCHED taxi=t_16 reservations=['1', '1']
+  [NEW REQUEST] person=2  res=2  -371130049#4 → 344412436#1  direct_tt=98.3s
+  [NEW REQUEST] person=3  res=3  1157697968 → 53561468  direct_tt=219.9s
+New arrivals: ['2', '3'], pickups: [], dropoffs: []
+
+════════════════════════════════════════════════════════════════════════
+  TICK #0004  t=    40.0s  [MEANINGFUL]
+  Events this tick:
+    + Arrivals  : ['2', '3']
+  Requests  : pending=2  assigned=2  onboard=0  completed=0
+  Wait times: avg=0.0s  max=0.0s
+  Fleet     : active=2  idle=18  total=20
+    taxi    t_0: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_1: IDLE                   load=0  stops=[(no stops)]
+    taxi   t_10: IDLE                   load=0  stops=[(no stops)]
+    taxi   t_11: IDLE                   load=0  stops=[(no stops)]
+    taxi   t_12: IDLE                   load=0  stops=[(no stops)]
+    taxi   t_13: IDLE                   load=0  stops=[(no stops)]
+    taxi   t_14: IDLE                   load=0  stops=[(no stops)]
+    taxi   t_15: IDLE                   load=0  stops=[(no stops)]
+    taxi   t_16: PICKUP                 load=0  stops=[Stop(PU req=1 eta=265.3s)  Stop(DO req=1 eta=400.9s)]
+    taxi   t_17: PICKUP                 load=0  stops=[Stop(PU req=0 eta=179.1s)  Stop(DO req=0 eta=infs)]
+    taxi   t_18: IDLE                   load=0  stops=[(no stops)]
+    taxi   t_19: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_2: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_3: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_4: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_5: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_6: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_7: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_8: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_9: IDLE                   load=0  stops=[(no stops)]
+  Interval accumulator: Accumulator(wait=0.0ps ride=0.0s empty=211.5m done=0 violations=0 dt=10.0s)
+════════════════════════════════════════════════════════════════════════
+  Replanable taxis this tick: ['t_0', 't_1', 't_10', 't_11', 't_12', 't_13', 't_14', 't_15', 't_16', 't_17', 't_18', 't_19', 't_2', 't_3', 't_4', 't_5', 't_6', 't_7', 't_8', 't_9']
+  Future taxi stop plans:
+    t_0: []
+    t_1: []
+    t_10: []
+    t_11: []
+    t_12: []
+    t_13: []
+    t_14: []
+    t_15: []
+    t_16: [PU(1)@265.3, DO(1)@400.9]
+    t_17: [PU(0)@179.1, DO(0)@inf]
+    t_18: []
+    t_19: []
+    t_2: []
+    t_3: []
+    t_4: []
+    t_5: []
+    t_6: []
+    t_7: []
+    t_8: []
+    t_9: []
+
+  ┌─ TOP-5 CANDIDATES for request 2 (person 2) waited 0.0s ─┐
+  │  #1  taxi=  t_14  pu_idx=0  do_idx=1  +route=  +0.0s  max_delay=  0.0s  pu_eta=  279.6s [ACTIVATES IDLE TAXI]  score=-3.38
+  │  #2  taxi=   t_7  pu_idx=0  do_idx=1  +route=  +0.0s  max_delay=  0.0s  pu_eta=  280.8s [ACTIVATES IDLE TAXI]  score=-3.39
+  │  #3  taxi=   t_3  pu_idx=0  do_idx=1  +route=  +0.0s  max_delay=  0.0s  pu_eta=    infs [ACTIVATES IDLE TAXI]  score=-3.40
+  │  #4  taxi=  t_19  pu_idx=0  do_idx=1  +route=  +0.0s  max_delay=  0.0s  pu_eta=  148.2s [ACTIVATES IDLE TAXI]  score=-3.54
+  │  #5  taxi=  t_18  pu_idx=0  do_idx=1  +route=  +0.0s  max_delay=  0.0s  pu_eta=   40.0s [ACTIVATES IDLE TAXI]  score=-3.54
+  └──────────────────────────────────────────────────────────────────────
+  → ASSIGNED req=2 → taxi=t_14  pu_eta=279.6s  (flush pending)
+
+  ┌─ TOP-5 CANDIDATES for request 3 (person 3) waited 0.0s ─┐
+  │  #1  taxi=   t_3  pu_idx=0  do_idx=1  +route=  +0.0s  max_delay=  0.0s  pu_eta=    infs [ACTIVATES IDLE TAXI]  score=-3.05
+  │  #2  taxi=  t_18  pu_idx=0  do_idx=1  +route=  +0.0s  max_delay=  0.0s  pu_eta=  193.7s [ACTIVATES IDLE TAXI]  score=-3.27
+  │  #3  taxi=  t_19  pu_idx=0  do_idx=1  +route=  +0.0s  max_delay=  0.0s  pu_eta=  170.9s [ACTIVATES IDLE TAXI]  score=-3.27
+  │  #4  taxi=  t_15  pu_idx=0  do_idx=1  +route=  +0.0s  max_delay=  0.0s  pu_eta=  157.9s [ACTIVATES IDLE TAXI]  score=-3.39
+  │  #5  taxi=   t_2  pu_idx=0  do_idx=1  +route=  +0.0s  max_delay=  0.0s  pu_eta=  166.9s [ACTIVATES IDLE TAXI]  score=-3.54
+  └──────────────────────────────────────────────────────────────────────
+  → ASSIGNED req=3 → taxi=t_3  pu_eta=infs  (flush pending)
+  → DISPATCHED taxi=t_3 reservations=['3', '3']
+  → DISPATCHED taxi=t_14 reservations=['2', '2']
+  [NEW REQUEST] person=4  res=4  371128537 → -344410516  direct_tt=56.1s
+New arrivals: ['4'], pickups: [], dropoffs: []
+
+════════════════════════════════════════════════════════════════════════
+  TICK #0005  t=    50.0s  [MEANINGFUL]
+  Events this tick:
+    + Arrivals  : ['4']
+  Requests  : pending=1  assigned=4  onboard=0  completed=0
+  Wait times: avg=0.0s  max=0.0s
+  Fleet     : active=4  idle=16  total=20
+    taxi    t_0: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_1: IDLE                   load=0  stops=[(no stops)]
+    taxi   t_10: IDLE                   load=0  stops=[(no stops)]
+    taxi   t_11: IDLE                   load=0  stops=[(no stops)]
+    taxi   t_12: IDLE                   load=0  stops=[(no stops)]
+    taxi   t_13: IDLE                   load=0  stops=[(no stops)]
+    taxi   t_14: PICKUP                 load=0  stops=[Stop(PU req=2 eta=288.5s)  Stop(DO req=2 eta=386.8s)]
+    taxi   t_15: IDLE                   load=0  stops=[(no stops)]
+    taxi   t_16: PICKUP                 load=0  stops=[Stop(PU req=1 eta=265.2s)  Stop(DO req=1 eta=400.9s)]
+    taxi   t_17: PICKUP                 load=0  stops=[Stop(PU req=0 eta=184.0s)  Stop(DO req=0 eta=infs)]
+    taxi   t_18: IDLE                   load=0  stops=[(no stops)]
+    taxi   t_19: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_2: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_3: PICKUP                 load=0  stops=[Stop(PU req=3 eta=infs)  Stop(DO req=3 eta=infs)]
+    taxi    t_4: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_5: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_6: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_7: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_8: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_9: IDLE                   load=0  stops=[(no stops)]
+  Interval accumulator: Accumulator(wait=0.0ps ride=0.0s empty=417.7m done=0 violations=0 dt=10.0s)
+════════════════════════════════════════════════════════════════════════
+  Replanable taxis this tick: ['t_0', 't_1', 't_10', 't_11', 't_12', 't_13', 't_14', 't_15', 't_16', 't_17', 't_18', 't_19', 't_2', 't_3', 't_4', 't_5', 't_6', 't_7', 't_8', 't_9']
+  Future taxi stop plans:
+    t_0: []
+    t_1: []
+    t_10: []
+    t_11: []
+    t_12: []
+    t_13: []
+    t_14: [PU(2)@288.5, DO(2)@386.8]
+    t_15: []
+    t_16: [PU(1)@265.2, DO(1)@400.9]
+    t_17: [PU(0)@184.0, DO(0)@inf]
+    t_18: []
+    t_19: []
+    t_2: []
+    t_3: [PU(3)@inf, DO(3)@inf]
+    t_4: []
+    t_5: []
+    t_6: []
+    t_7: []
+    t_8: []
+    t_9: []
+
+  ┌─ TOP-5 CANDIDATES for request 4 (person 4) waited 0.0s ─┐
+  │  #1  taxi=   t_1  pu_idx=0  do_idx=1  +route=  +0.0s  max_delay=  0.0s  pu_eta=  182.4s [ACTIVATES IDLE TAXI]  score=-2.88
+  │  #2  taxi=   t_2  pu_idx=0  do_idx=1  +route=  +0.0s  max_delay=  0.0s  pu_eta=  160.4s [ACTIVATES IDLE TAXI]  score=-3.08
+  │  #3  taxi=   t_0  pu_idx=0  do_idx=1  +route=  +0.0s  max_delay=  0.0s  pu_eta=  104.4s [ACTIVATES IDLE TAXI]  score=-3.27
+  │  #4  taxi=  t_16  pu_idx=2  do_idx=3  +route=  +0.0s  max_delay=  0.0s  pu_eta=  526.2s  score=-4.47
+  │  #5  taxi=  t_17  pu_idx=1  do_idx=2  +route=  +0.0s  max_delay=  0.0s  pu_eta=    infs  score=-4.48
+  └──────────────────────────────────────────────────────────────────────
+  → ASSIGNED req=4 → taxi=t_1  pu_eta=182.4s  (flush pending)
+  → DISPATCHED taxi=t_1 reservations=['4', '4']
+  [NEW REQUEST] person=5  res=5  -495024963#8 → 1253111323  direct_tt=118.9s
+  [NEW REQUEST] person=6  res=6  280958022#1 → -371139407#2  direct_tt=72.4s
+  [NEW REQUEST] person=7  res=7  371128537 → 1391556998  direct_tt=106.4s
+New arrivals: ['7', '5', '6'], pickups: [], dropoffs: []
+
+════════════════════════════════════════════════════════════════════════
+  TICK #0006  t=    60.0s  [MEANINGFUL]
+  Events this tick:
+    + Arrivals  : ['7', '5', '6']
+  Requests  : pending=3  assigned=5  onboard=0  completed=0
+  Wait times: avg=0.0s  max=0.0s
+  Fleet     : active=5  idle=15  total=20
+    taxi    t_0: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_1: PICKUP                 load=0  stops=[Stop(PU req=4 eta=193.2s)  Stop(DO req=4 eta=249.4s)]
+    taxi   t_10: IDLE                   load=0  stops=[(no stops)]
+    taxi   t_11: IDLE                   load=0  stops=[(no stops)]
+    taxi   t_12: IDLE                   load=0  stops=[(no stops)]
+    taxi   t_13: IDLE                   load=0  stops=[(no stops)]
+    taxi   t_14: PICKUP                 load=0  stops=[Stop(PU req=2 eta=287.3s)  Stop(DO req=2 eta=385.6s)]
+    taxi   t_15: IDLE                   load=0  stops=[(no stops)]
+    taxi   t_16: PICKUP                 load=0  stops=[Stop(PU req=1 eta=275.3s)  Stop(DO req=1 eta=410.9s)]
+    taxi   t_17: PICKUP                 load=0  stops=[Stop(PU req=0 eta=194.0s)  Stop(DO req=0 eta=infs)]
+    taxi   t_18: IDLE                   load=0  stops=[(no stops)]
+    taxi   t_19: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_2: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_3: PICKUP                 load=0  stops=[Stop(PU req=3 eta=infs)  Stop(DO req=3 eta=infs)]
+    taxi    t_4: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_5: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_6: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_7: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_8: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_9: IDLE                   load=0  stops=[(no stops)]
+  Interval accumulator: Accumulator(wait=0.0ps ride=0.0s empty=377.6m done=0 violations=0 dt=10.0s)
+════════════════════════════════════════════════════════════════════════
+  Replanable taxis this tick: ['t_0', 't_1', 't_10', 't_11', 't_12', 't_13', 't_14', 't_15', 't_16', 't_17', 't_18', 't_19', 't_2', 't_3', 't_4', 't_5', 't_6', 't_7', 't_8', 't_9']
+  Future taxi stop plans:
+    t_0: []
+    t_1: [PU(4)@193.2, DO(4)@249.4]
+    t_10: []
+    t_11: []
+    t_12: []
+    t_13: []
+    t_14: [PU(2)@287.3, DO(2)@385.6]
+    t_15: []
+    t_16: [PU(1)@275.3, DO(1)@410.9]
+    t_17: [PU(0)@194.0, DO(0)@inf]
+    t_18: []
+    t_19: []
+    t_2: []
+    t_3: [PU(3)@inf, DO(3)@inf]
+    t_4: []
+    t_5: []
+    t_6: []
+    t_7: []
+    t_8: []
+    t_9: []
+
+  ┌─ TOP-5 CANDIDATES for request 5 (person 5) waited 0.0s ─┐
+  │  #1  taxi=  t_16  pu_idx=2  do_idx=3  +route=  +0.0s  max_delay=  0.0s  pu_eta=  497.6s  score=-4.40
+  │  #2  taxi=  t_17  pu_idx=1  do_idx=2  +route=  +0.0s  max_delay=  0.0s  pu_eta=    infs  score=-4.40
+  │  #3  taxi=  t_17  pu_idx=1  do_idx=3  +route=  +0.0s  max_delay=  0.0s  pu_eta=    infs  score=-4.41
+  │  #4  taxi=  t_17  pu_idx=2  do_idx=3  +route=  +0.0s  max_delay=  0.0s  pu_eta=    infs  score=-4.41
+  │  #5  taxi=  t_14  pu_idx=2  do_idx=3  +route=  +0.0s  max_delay=  0.0s  pu_eta=  506.1s  score=-4.42
+  └──────────────────────────────────────────────────────────────────────
+  → ASSIGNED req=5 → taxi=t_16  pu_eta=497.6s  (flush pending)
+
+  ┌─ TOP-5 CANDIDATES for request 6 (person 6) waited 0.0s ─┐
+  │  #1  taxi=  t_17  pu_idx=1  do_idx=2  +route=  +0.0s  max_delay=  0.0s  pu_eta=    infs  score=-4.31
+  │  #2  taxi=  t_17  pu_idx=1  do_idx=3  +route=  +0.0s  max_delay=  0.0s  pu_eta=    infs  score=-4.32
+  │  #3  taxi=  t_17  pu_idx=2  do_idx=3  +route=  +0.0s  max_delay=  0.0s  pu_eta=    infs  score=-4.32
+  │  #4  taxi=   t_1  pu_idx=2  do_idx=3  +route=  +0.0s  max_delay=  0.0s  pu_eta=  345.3s  score=-4.38
+  │  #5  taxi=  t_14  pu_idx=2  do_idx=3  +route=  +0.0s  max_delay=  0.0s  pu_eta=  470.5s  score=-4.38
+  └──────────────────────────────────────────────────────────────────────
+  → ASSIGNED req=6 → taxi=t_17  pu_eta=infs  (flush pending)
+
+  ┌─ TOP-5 CANDIDATES for request 7 (person 7) waited 0.0s ─┐
+  │  #1  taxi=   t_1  pu_idx=1  do_idx=3  +route=  +0.0s  max_delay=  0.0s  pu_eta=  193.2s  score=-4.01
+  │  #2  taxi=  t_17  pu_idx=1  do_idx=2  +route=  +0.0s  max_delay=  0.0s  pu_eta=    infs  score=-4.31
+  │  #3  taxi=  t_17  pu_idx=1  do_idx=3  +route=  +0.0s  max_delay=  0.0s  pu_eta=    infs  score=-4.31
+  │  #4  taxi=  t_17  pu_idx=1  do_idx=4  +route=  +0.0s  max_delay=  0.0s  pu_eta=    infs  score=-4.31
+  │  #5  taxi=  t_17  pu_idx=1  do_idx=5  +route=  +0.0s  max_delay=  0.0s  pu_eta=    infs  score=-4.31
+  └──────────────────────────────────────────────────────────────────────
+  → ASSIGNED req=7 → taxi=t_1  pu_eta=193.2s  (flush pending)
+  → DISPATCHED taxi=t_1 reservations=['4', '7', '4', '7']
+  → DISPATCHED taxi=t_17 reservations=['0', '6', '6', '0']
+  → DISPATCHED taxi=t_16 reservations=['1', '1', '5', '5']
+  [NEW REQUEST] person=8  res=8  884011753#8 → 1432317802  direct_tt=95.8s
+New arrivals: ['8'], pickups: [], dropoffs: []
+
+════════════════════════════════════════════════════════════════════════
+  TICK #0008  t=    80.0s  [MEANINGFUL]
+  Events this tick:
+    + Arrivals  : ['8']
+  Requests  : pending=1  assigned=8  onboard=0  completed=0
+  Wait times: avg=0.0s  max=0.0s
+  Fleet     : active=5  idle=15  total=20
+    taxi    t_0: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_1: PICKUP                 load=0  stops=[Stop(PU req=4 eta=189.5s)  Stop(PU req=7 eta=189.5s)  Stop(DO req=4 eta=245.6s)  Stop(DO req=7 eta=336.1s)]
+    taxi   t_10: IDLE                   load=0  stops=[(no stops)]
+    taxi   t_11: IDLE                   load=0  stops=[(no stops)]
+    taxi   t_12: IDLE                   load=0  stops=[(no stops)]
+    taxi   t_13: IDLE                   load=0  stops=[(no stops)]
+    taxi   t_14: PICKUP                 load=0  stops=[Stop(PU req=2 eta=292.4s)  Stop(DO req=2 eta=390.7s)]
+    taxi   t_15: IDLE                   load=0  stops=[(no stops)]
+    taxi   t_16: PICKUP                 load=0  stops=[Stop(PU req=1 eta=295.4s)  Stop(DO req=1 eta=431.1s)  Stop(PU req=5 eta=517.8s)  Stop(DO req=5 eta=636.7s)]
+    taxi   t_17: PICKUP                 load=0  stops=[Stop(PU req=0 eta=185.8s)  Stop(PU req=6 eta=infs)  Stop(DO req=6 eta=infs)  Stop(DO req=0 eta=infs)]
+    taxi   t_18: IDLE                   load=0  stops=[(no stops)]
+    taxi   t_19: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_2: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_3: PICKUP                 load=0  stops=[Stop(PU req=3 eta=infs)  Stop(DO req=3 eta=infs)]
+    taxi    t_4: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_5: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_6: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_7: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_8: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_9: IDLE                   load=0  stops=[(no stops)]
+  Interval accumulator: Accumulator(wait=0.0ps ride=0.0s empty=931.2m done=0 violations=0 dt=20.0s)
+════════════════════════════════════════════════════════════════════════
+  Replanable taxis this tick: ['t_0', 't_1', 't_10', 't_11', 't_12', 't_13', 't_14', 't_15', 't_16', 't_17', 't_18', 't_19', 't_2', 't_3', 't_4', 't_5', 't_6', 't_7', 't_8', 't_9']
+  Future taxi stop plans:
+    t_0: []
+    t_1: [PU(4)@189.5, PU(7)@189.5, DO(4)@245.6, DO(7)@336.1]
+    t_10: []
+    t_11: []
+    t_12: []
+    t_13: []
+    t_14: [PU(2)@292.4, DO(2)@390.7]
+    t_15: []
+    t_16: [PU(1)@295.4, DO(1)@431.1, PU(5)@517.8, DO(5)@636.7]
+    t_17: [PU(0)@185.8, PU(6)@inf, DO(6)@inf, DO(0)@inf]
+    t_18: []
+    t_19: []
+    t_2: []
+    t_3: [PU(3)@inf, DO(3)@inf]
+    t_4: []
+    t_5: []
+    t_6: []
+    t_7: []
+    t_8: []
+    t_9: []
+
+  ┌─ TOP-5 CANDIDATES for request 8 (person 8) waited 0.0s ─┐
+  │  #1  taxi=  t_17  pu_idx=1  do_idx=2  +route=  +0.0s  max_delay=  0.0s  pu_eta=    infs  score=-4.27
+  │  #2  taxi=  t_17  pu_idx=1  do_idx=3  +route=  +0.0s  max_delay=  0.0s  pu_eta=    infs  score=-4.27
+  │  #3  taxi=  t_17  pu_idx=1  do_idx=4  +route=  +0.0s  max_delay=  0.0s  pu_eta=    infs  score=-4.28
+  │  #4  taxi=  t_17  pu_idx=1  do_idx=5  +route=  +0.0s  max_delay=  0.0s  pu_eta=    infs  score=-4.28
+  │  #5  taxi=   t_3  pu_idx=1  do_idx=2  +route=  +0.0s  max_delay=  0.0s  pu_eta=    infs  score=-4.28
+  └──────────────────────────────────────────────────────────────────────
+  → ASSIGNED req=8 → taxi=t_17  pu_eta=infs  (flush pending)
+  → DISPATCHED taxi=t_17 reservations=['0', '8', '8', '6', '6', '0']
+  [NEW REQUEST] person=9  res=9  -495024963#8 → -371139407#2  direct_tt=107.7s
+New arrivals: ['9'], pickups: [], dropoffs: []
+
+════════════════════════════════════════════════════════════════════════
+  TICK #0009  t=    90.0s  [MEANINGFUL]
+  Events this tick:
+    + Arrivals  : ['9']
+  Requests  : pending=1  assigned=9  onboard=0  completed=0
+  Wait times: avg=0.0s  max=0.0s
+  Fleet     : active=5  idle=15  total=20
+    taxi    t_0: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_1: PICKUP                 load=0  stops=[Stop(PU req=4 eta=194.7s)  Stop(PU req=7 eta=194.7s)  Stop(DO req=4 eta=250.8s)  Stop(DO req=7 eta=341.3s)]
+    taxi   t_10: IDLE                   load=0  stops=[(no stops)]
+    taxi   t_11: IDLE                   load=0  stops=[(no stops)]
+    taxi   t_12: IDLE                   load=0  stops=[(no stops)]
+    taxi   t_13: IDLE                   load=0  stops=[(no stops)]
+    taxi   t_14: PICKUP                 load=0  stops=[Stop(PU req=2 eta=295.2s)  Stop(DO req=2 eta=393.5s)]
+    taxi   t_15: IDLE                   load=0  stops=[(no stops)]
+    taxi   t_16: PICKUP                 load=0  stops=[Stop(PU req=1 eta=304.8s)  Stop(DO req=1 eta=440.4s)  Stop(PU req=5 eta=527.2s)  Stop(DO req=5 eta=646.1s)]
+    taxi   t_17: PICKUP                 load=0  stops=[Stop(PU req=0 eta=180.7s)  Stop(PU req=8 eta=infs)  Stop(DO req=8 eta=infs)  Stop(PU req=6 eta=infs)  Stop(DO req=6 eta=infs)  Stop(DO req=0 eta=infs)]
+    taxi   t_18: IDLE                   load=0  stops=[(no stops)]
+    taxi   t_19: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_2: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_3: PICKUP                 load=0  stops=[Stop(PU req=3 eta=infs)  Stop(DO req=3 eta=infs)]
+    taxi    t_4: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_5: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_6: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_7: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_8: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_9: IDLE                   load=0  stops=[(no stops)]
+  Interval accumulator: Accumulator(wait=0.0ps ride=0.0s empty=468.9m done=0 violations=0 dt=10.0s)
+════════════════════════════════════════════════════════════════════════
+  Replanable taxis this tick: ['t_0', 't_1', 't_10', 't_11', 't_12', 't_13', 't_14', 't_15', 't_16', 't_17', 't_18', 't_19', 't_2', 't_3', 't_4', 't_5', 't_6', 't_7', 't_8', 't_9']
+  Future taxi stop plans:
+    t_0: []
+    t_1: [PU(4)@194.7, PU(7)@194.7, DO(4)@250.8, DO(7)@341.3]
+    t_10: []
+    t_11: []
+    t_12: []
+    t_13: []
+    t_14: [PU(2)@295.2, DO(2)@393.5]
+    t_15: []
+    t_16: [PU(1)@304.8, DO(1)@440.4, PU(5)@527.2, DO(5)@646.1]
+    t_17: [PU(0)@180.7, PU(8)@inf, DO(8)@inf, PU(6)@inf, DO(6)@inf, DO(0)@inf]
+    t_18: []
+    t_19: []
+    t_2: []
+    t_3: [PU(3)@inf, DO(3)@inf]
+    t_4: []
+    t_5: []
+    t_6: []
+    t_7: []
+    t_8: []
+    t_9: []
+
+  ┌─ TOP-5 CANDIDATES for request 9 (person 9) waited 0.0s ─┐
+  │  #1  taxi=  t_17  pu_idx=1  do_idx=2  +route=  +0.0s  max_delay=  0.0s  pu_eta=    infs  score=-4.23
+  │  #2  taxi=  t_17  pu_idx=1  do_idx=3  +route=  +0.0s  max_delay=  0.0s  pu_eta=    infs  score=-4.23
+  │  #3  taxi=  t_17  pu_idx=1  do_idx=4  +route=  +0.0s  max_delay=  0.0s  pu_eta=    infs  score=-4.24
+  │  #4  taxi=  t_17  pu_idx=1  do_idx=5  +route=  +0.0s  max_delay=  0.0s  pu_eta=    infs  score=-4.24
+  │  #5  taxi=  t_17  pu_idx=1  do_idx=6  +route=  +0.0s  max_delay=  0.0s  pu_eta=    infs  score=-4.24
+  └──────────────────────────────────────────────────────────────────────
+  → ASSIGNED req=9 → taxi=t_17  pu_eta=infs  (flush pending)
+  → DISPATCHED taxi=t_17 reservations=['0', '9', '9', '8', '8', '6', '6', '0']
+  [NEW REQUEST] person=10  res=10  102678329#0 → 884011753#2  direct_tt=84.5s
+New arrivals: ['10'], pickups: [], dropoffs: []
+
+════════════════════════════════════════════════════════════════════════
+  TICK #0010  t=   100.0s  [MEANINGFUL]
+  Events this tick:
+    + Arrivals  : ['10']
+  Requests  : pending=1  assigned=10  onboard=0  completed=0
+  Wait times: avg=0.0s  max=0.0s
+  Fleet     : active=5  idle=15  total=20
+    taxi    t_0: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_1: PICKUP                 load=0  stops=[Stop(PU req=4 eta=192.1s)  Stop(PU req=7 eta=192.1s)  Stop(DO req=4 eta=248.2s)  Stop(DO req=7 eta=338.7s)]
+    taxi   t_10: IDLE                   load=0  stops=[(no stops)]
+    taxi   t_11: IDLE                   load=0  stops=[(no stops)]
+    taxi   t_12: IDLE                   load=0  stops=[(no stops)]
+    taxi   t_13: IDLE                   load=0  stops=[(no stops)]
+    taxi   t_14: PICKUP                 load=0  stops=[Stop(PU req=2 eta=297.8s)  Stop(DO req=2 eta=396.1s)]
+    taxi   t_15: IDLE                   load=0  stops=[(no stops)]
+    taxi   t_16: PICKUP                 load=0  stops=[Stop(PU req=1 eta=307.9s)  Stop(DO req=1 eta=443.5s)  Stop(PU req=5 eta=530.3s)  Stop(DO req=5 eta=649.2s)]
+    taxi   t_17: PICKUP                 load=0  stops=[Stop(PU req=0 eta=181.6s)  Stop(PU req=9 eta=infs)  Stop(DO req=9 eta=infs)  Stop(PU req=8 eta=infs)  Stop(DO req=8 eta=infs)  Stop(PU req=6 eta=infs)  Stop(DO req=6 eta=infs)  Stop(DO req=0 eta=infs)]
+    taxi   t_18: IDLE                   load=0  stops=[(no stops)]
+    taxi   t_19: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_2: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_3: PICKUP                 load=0  stops=[Stop(PU req=3 eta=infs)  Stop(DO req=3 eta=infs)]
+    taxi    t_4: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_5: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_6: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_7: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_8: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_9: IDLE                   load=0  stops=[(no stops)]
+  Interval accumulator: Accumulator(wait=0.0ps ride=0.0s empty=656.2m done=0 violations=0 dt=10.0s)
+════════════════════════════════════════════════════════════════════════
+  Replanable taxis this tick: ['t_0', 't_1', 't_10', 't_11', 't_12', 't_13', 't_14', 't_15', 't_16', 't_17', 't_18', 't_19', 't_2', 't_3', 't_4', 't_5', 't_6', 't_7', 't_8', 't_9']
+  Future taxi stop plans:
+    t_0: []
+    t_1: [PU(4)@192.1, PU(7)@192.1, DO(4)@248.2, DO(7)@338.7]
+    t_10: []
+    t_11: []
+    t_12: []
+    t_13: []
+    t_14: [PU(2)@297.8, DO(2)@396.1]
+    t_15: []
+    t_16: [PU(1)@307.9, DO(1)@443.5, PU(5)@530.3, DO(5)@649.2]
+    t_17: [PU(0)@181.6, PU(9)@inf, DO(9)@inf, PU(8)@inf, DO(8)@inf, PU(6)@inf, DO(6)@inf, DO(0)@inf]
+    t_18: []
+    t_19: []
+    t_2: []
+    t_3: [PU(3)@inf, DO(3)@inf]
+    t_4: []
+    t_5: []
+    t_6: []
+    t_7: []
+    t_8: []
+    t_9: []
+
+  ┌─ TOP-5 CANDIDATES for request 10 (person 10) waited 0.0s ─┐
+  │  #1  taxi=  t_17  pu_idx=1  do_idx=2  +route=  +0.0s  max_delay=  0.0s  pu_eta=    infs  score=-4.20
+  │  #2  taxi=  t_17  pu_idx=1  do_idx=3  +route=  +0.0s  max_delay=  0.0s  pu_eta=    infs  score=-4.20
+  │  #3  taxi=  t_17  pu_idx=1  do_idx=4  +route=  +0.0s  max_delay=  0.0s  pu_eta=    infs  score=-4.20
+  │  #4  taxi=  t_17  pu_idx=1  do_idx=5  +route=  +0.0s  max_delay=  0.0s  pu_eta=    infs  score=-4.20
+  │  #5  taxi=  t_17  pu_idx=1  do_idx=6  +route=  +0.0s  max_delay=  0.0s  pu_eta=    infs  score=-4.21
+  └──────────────────────────────────────────────────────────────────────
+  → ASSIGNED req=10 → taxi=t_17  pu_eta=infs  (flush pending)
+  → DISPATCHED taxi=t_17 reservations=['0', '10', '10', '9', '9', '8', '8', '6', '6', '0']
+  [NEW REQUEST] person=11  res=11  344412436#1 → -53561464#3  direct_tt=105.8s
+  [NEW REQUEST] person=12  res=12  -53561464#3 → 495024963#9  direct_tt=68.4s
+New arrivals: ['11', '12'], pickups: [], dropoffs: []
+
+════════════════════════════════════════════════════════════════════════
+  TICK #0011  t=   110.0s  [MEANINGFUL]
+  Events this tick:
+    + Arrivals  : ['11', '12']
+  Requests  : pending=2  assigned=11  onboard=0  completed=0
+  Wait times: avg=0.0s  max=0.0s
+  Fleet     : active=5  idle=15  total=20
+    taxi    t_0: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_1: PICKUP                 load=0  stops=[Stop(PU req=4 eta=195.6s)  Stop(PU req=7 eta=195.6s)  Stop(DO req=4 eta=251.7s)  Stop(DO req=7 eta=342.2s)]
+    taxi   t_10: IDLE                   load=0  stops=[(no stops)]
+    taxi   t_11: IDLE                   load=0  stops=[(no stops)]
+    taxi   t_12: IDLE                   load=0  stops=[(no stops)]
+    taxi   t_13: IDLE                   load=0  stops=[(no stops)]
+    taxi   t_14: PICKUP                 load=0  stops=[Stop(PU req=2 eta=298.2s)  Stop(DO req=2 eta=396.5s)]
+    taxi   t_15: IDLE                   load=0  stops=[(no stops)]
+    taxi   t_16: PICKUP                 load=0  stops=[Stop(PU req=1 eta=315.6s)  Stop(DO req=1 eta=451.2s)  Stop(PU req=5 eta=538.0s)  Stop(DO req=5 eta=656.9s)]
+    taxi   t_17: PICKUP                 load=0  stops=[Stop(PU req=0 eta=184.2s)  Stop(PU req=10 eta=infs)  Stop(DO req=10 eta=infs)  Stop(PU req=9 eta=infs)  Stop(DO req=9 eta=infs)  Stop(PU req=8 eta=infs)  Stop(DO req=8 eta=infs)  Stop(PU req=6 eta=infs)  Stop(DO req=6 eta=infs)  Stop(DO req=0 eta=infs)]
+    taxi   t_18: IDLE                   load=0  stops=[(no stops)]
+    taxi   t_19: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_2: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_3: PICKUP                 load=0  stops=[Stop(PU req=3 eta=infs)  Stop(DO req=3 eta=infs)]
+    taxi    t_4: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_5: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_6: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_7: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_8: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_9: IDLE                   load=0  stops=[(no stops)]
+  Interval accumulator: Accumulator(wait=0.0ps ride=0.0s empty=661.8m done=0 violations=0 dt=10.0s)
+════════════════════════════════════════════════════════════════════════
+  Replanable taxis this tick: ['t_0', 't_1', 't_10', 't_11', 't_12', 't_13', 't_14', 't_15', 't_16', 't_17', 't_18', 't_19', 't_2', 't_3', 't_4', 't_5', 't_6', 't_7', 't_8', 't_9']
+  Future taxi stop plans:
+    t_0: []
+    t_1: [PU(4)@195.6, PU(7)@195.6, DO(4)@251.7, DO(7)@342.2]
+    t_10: []
+    t_11: []
+    t_12: []
+    t_13: []
+    t_14: [PU(2)@298.2, DO(2)@396.5]
+    t_15: []
+    t_16: [PU(1)@315.6, DO(1)@451.2, PU(5)@538.0, DO(5)@656.9]
+    t_17: [PU(0)@184.2, PU(10)@inf, DO(10)@inf, PU(9)@inf, DO(9)@inf, PU(8)@inf, DO(8)@inf, PU(6)@inf, DO(6)@inf, DO(0)@inf]
+    t_18: []
+    t_19: []
+    t_2: []
+    t_3: [PU(3)@inf, DO(3)@inf]
+    t_4: []
+    t_5: []
+    t_6: []
+    t_7: []
+    t_8: []
+    t_9: []
+
+  ┌─ TOP-5 CANDIDATES for request 11 (person 11) waited 0.0s ─┐
+  │  #1  taxi=  t_17  pu_idx=1  do_idx=2  +route=  +0.0s  max_delay=  0.0s  pu_eta=    infs  score=-4.16
+  │  #2  taxi=  t_17  pu_idx=1  do_idx=3  +route=  +0.0s  max_delay=  0.0s  pu_eta=    infs  score=-4.16
+  │  #3  taxi=  t_17  pu_idx=1  do_idx=4  +route=  +0.0s  max_delay=  0.0s  pu_eta=    infs  score=-4.16
+  │  #4  taxi=  t_17  pu_idx=1  do_idx=5  +route=  +0.0s  max_delay=  0.0s  pu_eta=    infs  score=-4.17
+  │  #5  taxi=  t_17  pu_idx=1  do_idx=6  +route=  +0.0s  max_delay=  0.0s  pu_eta=    infs  score=-4.17
+  └──────────────────────────────────────────────────────────────────────
+  → ASSIGNED req=11 → taxi=t_17  pu_eta=infs  (flush pending)
+
+  ┌─ TOP-5 CANDIDATES for request 12 (person 12) waited 0.0s ─┐
+  │  #1  taxi=  t_17  pu_idx=1  do_idx=2  +route=  +0.0s  max_delay=  0.0s  pu_eta=    infs  score=-4.14
+  │  #2  taxi=  t_17  pu_idx=1  do_idx=3  +route=  +0.0s  max_delay=  0.0s  pu_eta=    infs  score=-4.15
+  │  #3  taxi=  t_17  pu_idx=1  do_idx=4  +route=  +0.0s  max_delay=  0.0s  pu_eta=    infs  score=-4.15
+  │  #4  taxi=   t_3  pu_idx=1  do_idx=2  +route=  +0.0s  max_delay=  0.0s  pu_eta=    infs  score=-4.15
+  │  #5  taxi=  t_17  pu_idx=1  do_idx=5  +route=  +0.0s  max_delay=  0.0s  pu_eta=    infs  score=-4.15
+  └──────────────────────────────────────────────────────────────────────
+  → ASSIGNED req=12 → taxi=t_17  pu_eta=infs  (flush pending)
+  → DISPATCHED taxi=t_17 reservations=['0', '12', '12', '11', '11', '10', '10', '9', '9', '8', '8', '6', '6', '0']
+  [NEW REQUEST] person=13  res=13  102678319#2 → 1432317802  direct_tt=98.9s
+New arrivals: ['13'], pickups: [], dropoffs: []
+
+════════════════════════════════════════════════════════════════════════
+  TICK #0014  t=   140.0s  [MEANINGFUL]
+  Events this tick:
+    + Arrivals  : ['13']
+  Requests  : pending=1  assigned=13  onboard=0  completed=0
+  Wait times: avg=0.0s  max=0.0s
+  Fleet     : active=5  idle=15  total=20
+    taxi    t_0: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_1: PICKUP                 load=0  stops=[Stop(PU req=4 eta=225.7s)  Stop(PU req=7 eta=225.7s)  Stop(DO req=4 eta=281.8s)  Stop(DO req=7 eta=372.3s)]
+    taxi   t_10: IDLE                   load=0  stops=[(no stops)]
+    taxi   t_11: IDLE                   load=0  stops=[(no stops)]
+    taxi   t_12: IDLE                   load=0  stops=[(no stops)]
+    taxi   t_13: IDLE                   load=0  stops=[(no stops)]
+    taxi   t_14: PICKUP                 load=0  stops=[Stop(PU req=2 eta=302.1s)  Stop(DO req=2 eta=400.4s)]
+    taxi   t_15: IDLE                   load=0  stops=[(no stops)]
+    taxi   t_16: PICKUP                 load=0  stops=[Stop(PU req=1 eta=334.6s)  Stop(DO req=1 eta=470.2s)  Stop(PU req=5 eta=557.0s)  Stop(DO req=5 eta=676.0s)]
+    taxi   t_17: PICKUP                 load=0  stops=[Stop(PU req=0 eta=187.4s)  Stop(PU req=12 eta=infs)  Stop(DO req=12 eta=infs)  Stop(PU req=11 eta=infs)  Stop(DO req=11 eta=infs)  Stop(PU req=10 eta=infs)  Stop(DO req=10 eta=infs)  Stop(PU req=9 eta=infs)  Stop(DO req=9 eta=infs)  Stop(PU req=8 eta=infs)  Stop(DO req=8 eta=infs)  Stop(PU req=6 eta=infs)  Stop(DO req=6 eta=infs)  Stop(DO req=0 eta=infs)]
+    taxi   t_18: IDLE                   load=0  stops=[(no stops)]
+    taxi   t_19: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_2: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_3: PICKUP                 load=0  stops=[Stop(PU req=3 eta=infs)  Stop(DO req=3 eta=infs)]
+    taxi    t_4: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_5: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_6: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_7: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_8: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_9: IDLE                   load=0  stops=[(no stops)]
+  Interval accumulator: Accumulator(wait=0.0ps ride=0.0s empty=1482.2m done=0 violations=0 dt=30.0s)
+════════════════════════════════════════════════════════════════════════
+  Replanable taxis this tick: ['t_0', 't_1', 't_10', 't_11', 't_12', 't_13', 't_14', 't_15', 't_16', 't_17', 't_18', 't_19', 't_2', 't_3', 't_4', 't_5', 't_6', 't_7', 't_8', 't_9']
+  Future taxi stop plans:
+    t_0: []
+    t_1: [PU(4)@225.7, PU(7)@225.7, DO(4)@281.8, DO(7)@372.3]
+    t_10: []
+    t_11: []
+    t_12: []
+    t_13: []
+    t_14: [PU(2)@302.1, DO(2)@400.4]
+    t_15: []
+    t_16: [PU(1)@334.6, DO(1)@470.2, PU(5)@557.0, DO(5)@676.0]
+    t_17: [PU(0)@187.4, PU(12)@inf, DO(12)@inf, PU(11)@inf, DO(11)@inf, PU(10)@inf, DO(10)@inf, PU(9)@inf, DO(9)@inf, PU(8)@inf, DO(8)@inf, PU(6)@inf, DO(6)@inf, DO(0)@inf]
+    t_18: []
+    t_19: []
+    t_2: []
+    t_3: [PU(3)@inf, DO(3)@inf]
+    t_4: []
+    t_5: []
+    t_6: []
+    t_7: []
+    t_8: []
+    t_9: []
+
+  ┌─ TOP-5 CANDIDATES for request 13 (person 13) waited 0.0s ─┐
+  │  #1  taxi=  t_17  pu_idx=1  do_idx=2  +route=  +0.0s  max_delay=  0.0s  pu_eta=    infs  score=-4.13
+  │  #2  taxi=  t_17  pu_idx=1  do_idx=3  +route=  +0.0s  max_delay=  0.0s  pu_eta=    infs  score=-4.13
+  │  #3  taxi=  t_17  pu_idx=1  do_idx=4  +route=  +0.0s  max_delay=  0.0s  pu_eta=    infs  score=-4.14
+  │  #4  taxi=  t_17  pu_idx=1  do_idx=5  +route=  +0.0s  max_delay=  0.0s  pu_eta=    infs  score=-4.14
+  │  #5  taxi=  t_17  pu_idx=1  do_idx=6  +route=  +0.0s  max_delay=  0.0s  pu_eta=    infs  score=-4.14
+  └──────────────────────────────────────────────────────────────────────
+  → ASSIGNED req=13 → taxi=t_17  pu_eta=infs  (flush pending)
+  → DISPATCHED taxi=t_17 reservations=['0', '13', '13', '12', '12', '11', '11', '10', '10', '9', '9', '8', '8', '6', '6', '0']
+  [NEW REQUEST] person=14  res=14  102678329#1 → -495024963#8  direct_tt=53.6s
+New arrivals: ['14'], pickups: [], dropoffs: []
+
+════════════════════════════════════════════════════════════════════════
+  TICK #0015  t=   150.0s  [MEANINGFUL]
+  Events this tick:
+    + Arrivals  : ['14']
+  Requests  : pending=1  assigned=14  onboard=0  completed=0
+  Wait times: avg=0.0s  max=0.0s
+  Fleet     : active=5  idle=15  total=20
+    taxi    t_0: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_1: PICKUP                 load=0  stops=[Stop(PU req=4 eta=232.5s)  Stop(PU req=7 eta=232.5s)  Stop(DO req=4 eta=288.6s)  Stop(DO req=7 eta=379.1s)]
+    taxi   t_10: IDLE                   load=0  stops=[(no stops)]
+    taxi   t_11: IDLE                   load=0  stops=[(no stops)]
+    taxi   t_12: IDLE                   load=0  stops=[(no stops)]
+    taxi   t_13: IDLE                   load=0  stops=[(no stops)]
+    taxi   t_14: PICKUP                 load=0  stops=[Stop(PU req=2 eta=306.8s)  Stop(DO req=2 eta=405.1s)]
+    taxi   t_15: IDLE                   load=0  stops=[(no stops)]
+    taxi   t_16: PICKUP                 load=0  stops=[Stop(PU req=1 eta=338.9s)  Stop(DO req=1 eta=474.6s)  Stop(PU req=5 eta=561.4s)  Stop(DO req=5 eta=680.3s)]
+    taxi   t_17: PICKUP                 load=0  stops=[Stop(PU req=0 eta=192.8s)  Stop(PU req=13 eta=infs)  Stop(DO req=13 eta=infs)  Stop(PU req=12 eta=infs)  Stop(DO req=12 eta=infs)  Stop(PU req=11 eta=infs)  Stop(DO req=11 eta=infs)  Stop(PU req=10 eta=infs)  Stop(DO req=10 eta=infs)  Stop(PU req=9 eta=infs)  Stop(DO req=9 eta=infs)  Stop(PU req=8 eta=infs)  Stop(DO req=8 eta=infs)  Stop(PU req=6 eta=infs)  Stop(DO req=6 eta=infs)  Stop(DO req=0 eta=infs)]
+    taxi   t_18: IDLE                   load=0  stops=[(no stops)]
+    taxi   t_19: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_2: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_3: PICKUP                 load=0  stops=[Stop(PU req=3 eta=infs)  Stop(DO req=3 eta=infs)]
+    taxi    t_4: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_5: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_6: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_7: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_8: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_9: IDLE                   load=0  stops=[(no stops)]
+  Interval accumulator: Accumulator(wait=0.0ps ride=0.0s empty=440.0m done=0 violations=0 dt=10.0s)
+════════════════════════════════════════════════════════════════════════
+  Replanable taxis this tick: ['t_0', 't_1', 't_10', 't_11', 't_12', 't_13', 't_14', 't_15', 't_16', 't_17', 't_18', 't_19', 't_2', 't_3', 't_4', 't_5', 't_6', 't_7', 't_8', 't_9']
+  Future taxi stop plans:
+    t_0: []
+    t_1: [PU(4)@232.5, PU(7)@232.5, DO(4)@288.6, DO(7)@379.1]
+    t_10: []
+    t_11: []
+    t_12: []
+    t_13: []
+    t_14: [PU(2)@306.8, DO(2)@405.1]
+    t_15: []
+    t_16: [PU(1)@338.9, DO(1)@474.6, PU(5)@561.4, DO(5)@680.3]
+    t_17: [PU(0)@192.8, PU(13)@inf, DO(13)@inf, PU(12)@inf, DO(12)@inf, PU(11)@inf, DO(11)@inf, PU(10)@inf, DO(10)@inf, PU(9)@inf, DO(9)@inf, PU(8)@inf, DO(8)@inf, PU(6)@inf, DO(6)@inf, DO(0)@inf]
+    t_18: []
+    t_19: []
+    t_2: []
+    t_3: [PU(3)@inf, DO(3)@inf]
+    t_4: []
+    t_5: []
+    t_6: []
+    t_7: []
+    t_8: []
+    t_9: []
+
+  ┌─ TOP-5 CANDIDATES for request 14 (person 14) waited 0.0s ─┐
+  │  #1  taxi=   t_3  pu_idx=1  do_idx=2  +route=  +0.0s  max_delay=  0.0s  pu_eta=    infs  score=-4.12
+  │  #2  taxi=   t_3  pu_idx=1  do_idx=3  +route=  +0.0s  max_delay=  0.0s  pu_eta=    infs  score=-4.12
+  │  #3  taxi=   t_3  pu_idx=2  do_idx=3  +route=  +0.0s  max_delay=  0.0s  pu_eta=    infs  score=-4.13
+  │  #4  taxi=  t_14  pu_idx=2  do_idx=3  +route=  +0.0s  max_delay=  0.0s  pu_eta=  522.7s  score=-4.13
+  │  #5  taxi=  t_17  pu_idx=1  do_idx=2  +route=  +0.0s  max_delay=  0.0s  pu_eta=    infs  score=-4.13
+  └──────────────────────────────────────────────────────────────────────
+  → ASSIGNED req=14 → taxi=t_3  pu_eta=infs  (flush pending)
+  → DISPATCHED taxi=t_3 reservations=['3', '14', '14', '3']
+  [NEW REQUEST] person=15  res=15  -371128539#1 → -25717852#1  direct_tt=113.4s
+New arrivals: ['15'], pickups: [], dropoffs: []
+
+════════════════════════════════════════════════════════════════════════
+  TICK #0019  t=   190.0s  [MEANINGFUL]
+  Events this tick:
+    + Arrivals  : ['15']
+  Requests  : pending=1  assigned=15  onboard=0  completed=0
+  Wait times: avg=0.0s  max=0.0s
+  Fleet     : active=5  idle=15  total=20
+    taxi    t_0: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_1: PICKUP                 load=0  stops=[Stop(PU req=4 eta=260.2s)  Stop(PU req=7 eta=260.2s)  Stop(DO req=4 eta=316.3s)  Stop(DO req=7 eta=406.7s)]
+    taxi   t_10: IDLE                   load=0  stops=[(no stops)]
+    taxi   t_11: IDLE                   load=0  stops=[(no stops)]
+    taxi   t_12: IDLE                   load=0  stops=[(no stops)]
+    taxi   t_13: IDLE                   load=0  stops=[(no stops)]
+    taxi   t_14: PICKUP                 load=0  stops=[Stop(PU req=2 eta=329.1s)  Stop(DO req=2 eta=426.3s)]
+    taxi   t_15: IDLE                   load=0  stops=[(no stops)]
+    taxi   t_16: PICKUP                 load=0  stops=[Stop(PU req=1 eta=342.3s)  Stop(DO req=1 eta=476.8s)  Stop(PU req=5 eta=562.8s)  Stop(DO req=5 eta=681.7s)]
+    taxi   t_17: PICKUP                 load=0  stops=[Stop(PU req=0 eta=198.5s)  Stop(PU req=13 eta=infs)  Stop(DO req=13 eta=infs)  Stop(PU req=12 eta=infs)  Stop(DO req=12 eta=infs)  Stop(PU req=11 eta=infs)  Stop(DO req=11 eta=infs)  Stop(PU req=10 eta=infs)  Stop(DO req=10 eta=infs)  Stop(PU req=9 eta=infs)  Stop(DO req=9 eta=infs)  Stop(PU req=8 eta=infs)  Stop(DO req=8 eta=infs)  Stop(PU req=6 eta=infs)  Stop(DO req=6 eta=infs)  Stop(DO req=0 eta=infs)]
+    taxi   t_18: IDLE                   load=0  stops=[(no stops)]
+    taxi   t_19: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_2: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_3: PICKUP                 load=0  stops=[Stop(PU req=3 eta=infs)  Stop(PU req=14 eta=infs)  Stop(DO req=14 eta=infs)  Stop(DO req=3 eta=infs)]
+    taxi    t_4: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_5: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_6: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_7: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_8: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_9: IDLE                   load=0  stops=[(no stops)]
+  Interval accumulator: Accumulator(wait=0.0ps ride=0.0s empty=2872.6m done=0 violations=0 dt=40.0s)
+════════════════════════════════════════════════════════════════════════
+  Replanable taxis this tick: ['t_0', 't_1', 't_10', 't_11', 't_12', 't_13', 't_14', 't_15', 't_16', 't_17', 't_18', 't_19', 't_2', 't_3', 't_4', 't_5', 't_6', 't_7', 't_8', 't_9']
+  Future taxi stop plans:
+    t_0: []
+    t_1: [PU(4)@260.2, PU(7)@260.2, DO(4)@316.3, DO(7)@406.7]
+    t_10: []
+    t_11: []
+    t_12: []
+    t_13: []
+    t_14: [PU(2)@329.1, DO(2)@426.3]
+    t_15: []
+    t_16: [PU(1)@342.3, DO(1)@476.8, PU(5)@562.8, DO(5)@681.7]
+    t_17: [PU(0)@198.5, PU(13)@inf, DO(13)@inf, PU(12)@inf, DO(12)@inf, PU(11)@inf, DO(11)@inf, PU(10)@inf, DO(10)@inf, PU(9)@inf, DO(9)@inf, PU(8)@inf, DO(8)@inf, PU(6)@inf, DO(6)@inf, DO(0)@inf]
+    t_18: []
+    t_19: []
+    t_2: []
+    t_3: [PU(3)@inf, PU(14)@inf, DO(14)@inf, DO(3)@inf]
+    t_4: []
+    t_5: []
+    t_6: []
+    t_7: []
+    t_8: []
+    t_9: []
+
+  ┌─ TOP-5 CANDIDATES for request 15 (person 15) waited 0.0s ─┐
+  │  #1  taxi=  t_17  pu_idx=1  do_idx=2  +route=  +0.0s  max_delay=  0.0s  pu_eta=    infs  score=-4.13
+  │  #2  taxi=   t_3  pu_idx=1  do_idx=2  +route=  +0.0s  max_delay=  0.0s  pu_eta=    infs  score=-4.13
+  │  #3  taxi=  t_17  pu_idx=1  do_idx=3  +route=  +0.0s  max_delay=  0.0s  pu_eta=    infs  score=-4.13
+  │  #4  taxi=   t_3  pu_idx=1  do_idx=3  +route=  +0.0s  max_delay=  0.0s  pu_eta=    infs  score=-4.13
+  │  #5  taxi=  t_17  pu_idx=1  do_idx=4  +route=  +0.0s  max_delay=  0.0s  pu_eta=    infs  score=-4.13
+  └──────────────────────────────────────────────────────────────────────
+  → ASSIGNED req=15 → taxi=t_17  pu_eta=infs  (flush pending)
+  → DISPATCHED taxi=t_17 reservations=['0', '15', '15', '13', '13', '12', '12', '11', '11', '10', '10', '9', '9', '8', '8', '6', '6', '0']
+  [NEW REQUEST] person=16  res=16  888532983#2 → 344412436#1  direct_tt=74.4s
+  [PERIODIC PICKUP] person=0  taxi=t_17  t=200.0s
+  [REDISPATCH] taxi=t_17 reservations=['15', '15', '13', '13', '12', '12', '11', '11', '10', '10', '9', '9', '8', '8', '6', '6', '0']
+New arrivals: ['16'], pickups: ['0'], dropoffs: []
+
+════════════════════════════════════════════════════════════════════════
+  TICK #0020  t=   200.0s  [MEANINGFUL]
+  Events this tick:
+    + Arrivals  : ['16']
+    ✓ Pickups   : ['0']
+  Requests  : pending=1  assigned=15  onboard=1  completed=0
+  Wait times: avg=0.0s  max=0.0s
+  Fleet     : active=5  idle=15  total=20
+    taxi    t_0: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_1: PICKUP                 load=0  stops=[Stop(PU req=4 eta=263.7s)  Stop(PU req=7 eta=263.7s)  Stop(DO req=4 eta=319.8s)  Stop(DO req=7 eta=410.2s)]
+    taxi   t_10: IDLE                   load=0  stops=[(no stops)]
+    taxi   t_11: IDLE                   load=0  stops=[(no stops)]
+    taxi   t_12: IDLE                   load=0  stops=[(no stops)]
+    taxi   t_13: IDLE                   load=0  stops=[(no stops)]
+    taxi   t_14: PICKUP                 load=0  stops=[Stop(PU req=2 eta=339.2s)  Stop(DO req=2 eta=436.4s)]
+    taxi   t_15: IDLE                   load=0  stops=[(no stops)]
+    taxi   t_16: PICKUP                 load=0  stops=[Stop(PU req=1 eta=341.1s)  Stop(DO req=1 eta=475.4s)  Stop(PU req=5 eta=561.2s)  Stop(DO req=5 eta=680.0s)]
+    taxi   t_17: PICKUP_AND_OCCUPIED    load=1  stops=[Stop(PU req=15 eta=infs)  Stop(DO req=15 eta=infs)  Stop(PU req=13 eta=infs)  Stop(DO req=13 eta=infs)  Stop(PU req=12 eta=infs)  Stop(DO req=12 eta=infs)  Stop(PU req=11 eta=infs)  Stop(DO req=11 eta=infs)  Stop(PU req=10 eta=infs)  Stop(DO req=10 eta=infs)  Stop(PU req=9 eta=infs)  Stop(DO req=9 eta=infs)  Stop(PU req=8 eta=infs)  Stop(DO req=8 eta=infs)  Stop(PU req=6 eta=infs)  Stop(DO req=6 eta=infs)  Stop(DO req=0 eta=infs)]
+    taxi   t_18: IDLE                   load=0  stops=[(no stops)]
+    taxi   t_19: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_2: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_3: PICKUP                 load=0  stops=[Stop(PU req=3 eta=infs)  Stop(PU req=14 eta=infs)  Stop(DO req=14 eta=infs)  Stop(DO req=3 eta=infs)]
+    taxi    t_4: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_5: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_6: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_7: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_8: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_9: IDLE                   load=0  stops=[(no stops)]
+  Interval accumulator: Accumulator(wait=0.0ps ride=0.0s empty=610.5m done=0 violations=0 dt=10.0s)
+════════════════════════════════════════════════════════════════════════
+  Replanable taxis this tick: ['t_0', 't_1', 't_10', 't_11', 't_12', 't_13', 't_14', 't_15', 't_16', 't_17', 't_18', 't_19', 't_2', 't_3', 't_4', 't_5', 't_6', 't_7', 't_8', 't_9']
+  Future taxi stop plans:
+    t_0: []
+    t_1: [PU(4)@263.7, PU(7)@263.7, DO(4)@319.8, DO(7)@410.2]
+    t_10: []
+    t_11: []
+    t_12: []
+    t_13: []
+    t_14: [PU(2)@339.2, DO(2)@436.4]
+    t_15: []
+    t_16: [PU(1)@341.1, DO(1)@475.4, PU(5)@561.2, DO(5)@680.0]
+    t_17: [PU(15)@inf, DO(15)@inf, PU(13)@inf, DO(13)@inf, PU(12)@inf, DO(12)@inf, PU(11)@inf, DO(11)@inf, PU(10)@inf, DO(10)@inf, PU(9)@inf, DO(9)@inf, PU(8)@inf, DO(8)@inf, PU(6)@inf, DO(6)@inf, DO(0)@inf]
+    t_18: []
+    t_19: []
+    t_2: []
+    t_3: [PU(3)@inf, PU(14)@inf, DO(14)@inf, DO(3)@inf]
+    t_4: []
+    t_5: []
+    t_6: []
+    t_7: []
+    t_8: []
+    t_9: []
+
+  ┌─ TOP-5 CANDIDATES for request 16 (person 16) waited 0.0s ─┐
+  │  #1  taxi=  t_17  pu_idx=1  do_idx=2  +route=  +0.0s  max_delay=  0.0s  pu_eta=    infs  score=-4.13
+  │  #2  taxi=  t_17  pu_idx=1  do_idx=3  +route=  +0.0s  max_delay=  0.0s  pu_eta=    infs  score=-4.13
+  │  #3  taxi=   t_3  pu_idx=1  do_idx=2  +route=  +0.0s  max_delay=  0.0s  pu_eta=    infs  score=-4.13
+  │  #4  taxi=  t_17  pu_idx=1  do_idx=4  +route=  +0.0s  max_delay=  0.0s  pu_eta=    infs  score=-4.13
+  │  #5  taxi=   t_3  pu_idx=1  do_idx=3  +route=  +0.0s  max_delay=  0.0s  pu_eta=    infs  score=-4.13
+  └──────────────────────────────────────────────────────────────────────
+  → ASSIGNED req=16 → taxi=t_17  pu_eta=infs  (flush pending)
+  → DISPATCHED taxi=t_17 reservations=['15', '16', '16', '15', '13', '13', '12', '12', '11', '11', '10', '10', '9', '9', '8', '8', '6', '6', '0']
+  [NEW REQUEST] person=17  res=17  -25718014#1 → -25717814#1  direct_tt=104.1s
+New arrivals: ['17'], pickups: [], dropoffs: []
+
+════════════════════════════════════════════════════════════════════════
+  TICK #0021  t=   210.0s  [MEANINGFUL]
+  Events this tick:
+    + Arrivals  : ['17']
+  Requests  : pending=1  assigned=16  onboard=1  completed=0
+  Wait times: avg=0.0s  max=0.0s
+  Fleet     : active=5  idle=15  total=20
+    taxi    t_0: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_1: PICKUP                 load=0  stops=[Stop(PU req=4 eta=265.5s)  Stop(PU req=7 eta=265.5s)  Stop(DO req=4 eta=321.6s)  Stop(DO req=7 eta=412.1s)]
+    taxi   t_10: IDLE                   load=0  stops=[(no stops)]
+    taxi   t_11: IDLE                   load=0  stops=[(no stops)]
+    taxi   t_12: IDLE                   load=0  stops=[(no stops)]
+    taxi   t_13: IDLE                   load=0  stops=[(no stops)]
+    taxi   t_14: PICKUP                 load=0  stops=[Stop(PU req=2 eta=307.3s)  Stop(DO req=2 eta=404.5s)]
+    taxi   t_15: IDLE                   load=0  stops=[(no stops)]
+    taxi   t_16: PICKUP                 load=0  stops=[Stop(PU req=1 eta=351.2s)  Stop(DO req=1 eta=485.4s)  Stop(PU req=5 eta=571.2s)  Stop(DO req=5 eta=690.0s)]
+    taxi   t_17: PICKUP_AND_OCCUPIED    load=1  stops=[Stop(PU req=15 eta=infs)  Stop(PU req=16 eta=infs)  Stop(DO req=16 eta=infs)  Stop(DO req=15 eta=infs)  Stop(PU req=13 eta=infs)  Stop(DO req=13 eta=infs)  Stop(PU req=12 eta=infs)  Stop(DO req=12 eta=infs)  Stop(PU req=11 eta=infs)  Stop(DO req=11 eta=infs)  Stop(PU req=10 eta=infs)  Stop(DO req=10 eta=infs)  Stop(PU req=9 eta=infs)  Stop(DO req=9 eta=infs)  Stop(PU req=8 eta=infs)  Stop(DO req=8 eta=infs)  Stop(PU req=6 eta=infs)  Stop(DO req=6 eta=infs)  Stop(DO req=0 eta=infs)]
+    taxi   t_18: IDLE                   load=0  stops=[(no stops)]
+    taxi   t_19: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_2: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_3: PICKUP                 load=0  stops=[Stop(PU req=3 eta=infs)  Stop(PU req=14 eta=infs)  Stop(DO req=14 eta=infs)  Stop(DO req=3 eta=infs)]
+    taxi    t_4: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_5: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_6: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_7: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_8: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_9: IDLE                   load=0  stops=[(no stops)]
+  Interval accumulator: Accumulator(wait=0.0ps ride=0.0s empty=588.5m done=0 violations=0 dt=10.0s)
+════════════════════════════════════════════════════════════════════════
+  Replanable taxis this tick: ['t_0', 't_1', 't_10', 't_11', 't_12', 't_13', 't_14', 't_15', 't_16', 't_17', 't_18', 't_19', 't_2', 't_3', 't_4', 't_5', 't_6', 't_7', 't_8', 't_9']
+  Future taxi stop plans:
+    t_0: []
+    t_1: [PU(4)@265.5, PU(7)@265.5, DO(4)@321.6, DO(7)@412.1]
+    t_10: []
+    t_11: []
+    t_12: []
+    t_13: []
+    t_14: [PU(2)@307.3, DO(2)@404.5]
+    t_15: []
+    t_16: [PU(1)@351.2, DO(1)@485.4, PU(5)@571.2, DO(5)@690.0]
+    t_17: [PU(15)@inf, PU(16)@inf, DO(16)@inf, DO(15)@inf, PU(13)@inf, DO(13)@inf, PU(12)@inf, DO(12)@inf, PU(11)@inf, DO(11)@inf, PU(10)@inf, DO(10)@inf, PU(9)@inf, DO(9)@inf, PU(8)@inf, DO(8)@inf, PU(6)@inf, DO(6)@inf, DO(0)@inf]
+    t_18: []
+    t_19: []
+    t_2: []
+    t_3: [PU(3)@inf, PU(14)@inf, DO(14)@inf, DO(3)@inf]
+    t_4: []
+    t_5: []
+    t_6: []
+    t_7: []
+    t_8: []
+    t_9: []
+
+  ┌─ TOP-5 CANDIDATES for request 17 (person 17) waited 0.0s ─┐
+  │  #1  taxi=   t_1  pu_idx=4  do_idx=5  +route=  +0.0s  max_delay=  0.0s  pu_eta=  612.7s  score=-4.13
+  │  #2  taxi=  t_17  pu_idx=1  do_idx=2  +route=  +0.0s  max_delay=  0.0s  pu_eta=    infs  score=-4.14
+  │  #3  taxi=  t_17  pu_idx=1  do_idx=3  +route=  +0.0s  max_delay=  0.0s  pu_eta=    infs  score=-4.14
+  │  #4  taxi=  t_17  pu_idx=1  do_idx=4  +route=  +0.0s  max_delay=  0.0s  pu_eta=    infs  score=-4.14
+  │  #5  taxi=   t_3  pu_idx=1  do_idx=2  +route=  +0.0s  max_delay=  0.0s  pu_eta=    infs  score=-4.14
+  └──────────────────────────────────────────────────────────────────────
+  → ASSIGNED req=17 → taxi=t_1  pu_eta=612.7s  (flush pending)
+  → DISPATCHED taxi=t_1 reservations=['4', '7', '4', '7', '17', '17']
+  [NEW REQUEST] person=18  res=18  -25717814#0 → -25717491  direct_tt=60.5s
+  [NEW REQUEST] person=19  res=19  776320079#1 → -888532983#0  direct_tt=95.9s
+  [NEW REQUEST] person=20  res=20  -53561355#7 → 371128537  direct_tt=142.5s
+New arrivals: ['20', '18', '19'], pickups: [], dropoffs: []
+
+════════════════════════════════════════════════════════════════════════
+  TICK #0022  t=   220.0s  [MEANINGFUL]
+  Events this tick:
+    + Arrivals  : ['20', '18', '19']
+  Requests  : pending=3  assigned=17  onboard=1  completed=0
+  Wait times: avg=0.0s  max=0.0s
+  Fleet     : active=5  idle=15  total=20
+    taxi    t_0: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_1: PICKUP                 load=0  stops=[Stop(PU req=4 eta=265.4s)  Stop(PU req=7 eta=265.4s)  Stop(DO req=4 eta=321.5s)  Stop(DO req=7 eta=412.0s)  Stop(PU req=17 eta=612.6s)  Stop(DO req=17 eta=716.7s)]
+    taxi   t_10: IDLE                   load=0  stops=[(no stops)]
+    taxi   t_11: IDLE                   load=0  stops=[(no stops)]
+    taxi   t_12: IDLE                   load=0  stops=[(no stops)]
+    taxi   t_13: IDLE                   load=0  stops=[(no stops)]
+    taxi   t_14: PICKUP                 load=0  stops=[Stop(PU req=2 eta=312.4s)  Stop(DO req=2 eta=409.6s)]
+    taxi   t_15: IDLE                   load=0  stops=[(no stops)]
+    taxi   t_16: PICKUP                 load=0  stops=[Stop(PU req=1 eta=344.7s)  Stop(DO req=1 eta=478.9s)  Stop(PU req=5 eta=564.7s)  Stop(DO req=5 eta=683.5s)]
+    taxi   t_17: PICKUP_AND_OCCUPIED    load=1  stops=[Stop(PU req=15 eta=infs)  Stop(PU req=16 eta=infs)  Stop(DO req=16 eta=infs)  Stop(DO req=15 eta=infs)  Stop(PU req=13 eta=infs)  Stop(DO req=13 eta=infs)  Stop(PU req=12 eta=infs)  Stop(DO req=12 eta=infs)  Stop(PU req=11 eta=infs)  Stop(DO req=11 eta=infs)  Stop(PU req=10 eta=infs)  Stop(DO req=10 eta=infs)  Stop(PU req=9 eta=infs)  Stop(DO req=9 eta=infs)  Stop(PU req=8 eta=infs)  Stop(DO req=8 eta=infs)  Stop(PU req=6 eta=infs)  Stop(DO req=6 eta=infs)  Stop(DO req=0 eta=infs)]
+    taxi   t_18: IDLE                   load=0  stops=[(no stops)]
+    taxi   t_19: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_2: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_3: PICKUP                 load=0  stops=[Stop(PU req=3 eta=infs)  Stop(PU req=14 eta=infs)  Stop(DO req=14 eta=infs)  Stop(DO req=3 eta=infs)]
+    taxi    t_4: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_5: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_6: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_7: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_8: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_9: IDLE                   load=0  stops=[(no stops)]
+  Interval accumulator: Accumulator(wait=0.0ps ride=0.0s empty=424.3m done=0 violations=0 dt=10.0s)
+════════════════════════════════════════════════════════════════════════
+  Replanable taxis this tick: ['t_0', 't_1', 't_10', 't_11', 't_12', 't_13', 't_14', 't_15', 't_16', 't_17', 't_18', 't_19', 't_2', 't_3', 't_4', 't_5', 't_6', 't_7', 't_8', 't_9']
+  Future taxi stop plans:
+    t_0: []
+    t_1: [PU(4)@265.4, PU(7)@265.4, DO(4)@321.5, DO(7)@412.0, PU(17)@612.6, DO(17)@716.7]
+    t_10: []
+    t_11: []
+    t_12: []
+    t_13: []
+    t_14: [PU(2)@312.4, DO(2)@409.6]
+    t_15: []
+    t_16: [PU(1)@344.7, DO(1)@478.9, PU(5)@564.7, DO(5)@683.5]
+    t_17: [PU(15)@inf, PU(16)@inf, DO(16)@inf, DO(15)@inf, PU(13)@inf, DO(13)@inf, PU(12)@inf, DO(12)@inf, PU(11)@inf, DO(11)@inf, PU(10)@inf, DO(10)@inf, PU(9)@inf, DO(9)@inf, PU(8)@inf, DO(8)@inf, PU(6)@inf, DO(6)@inf, DO(0)@inf]
+    t_18: []
+    t_19: []
+    t_2: []
+    t_3: [PU(3)@inf, PU(14)@inf, DO(14)@inf, DO(3)@inf]
+    t_4: []
+    t_5: []
+    t_6: []
+    t_7: []
+    t_8: []
+    t_9: []
+
+  ┌─ TOP-5 CANDIDATES for request 18 (person 18) waited 0.0s ─┐
+  │  #1  taxi=  t_17  pu_idx=1  do_idx=2  +route=  +0.0s  max_delay=  0.0s  pu_eta=    infs  score=-4.13
+  │  #2  taxi=  t_17  pu_idx=1  do_idx=3  +route=  +0.0s  max_delay=  0.0s  pu_eta=    infs  score=-4.13
+  │  #3  taxi=  t_17  pu_idx=1  do_idx=4  +route=  +0.0s  max_delay=  0.0s  pu_eta=    infs  score=-4.13
+  │  #4  taxi=   t_3  pu_idx=1  do_idx=2  +route=  +0.0s  max_delay=  0.0s  pu_eta=    infs  score=-4.14
+  │  #5  taxi=  t_17  pu_idx=1  do_idx=5  +route=  +0.0s  max_delay=  0.0s  pu_eta=    infs  score=-4.14
+  └──────────────────────────────────────────────────────────────────────
+  → ASSIGNED req=18 → taxi=t_17  pu_eta=infs  (flush pending)
+
+  ┌─ TOP-5 CANDIDATES for request 19 (person 19) waited 0.0s ─┐
+  │  #1  taxi=   t_3  pu_idx=1  do_idx=2  +route=  +0.0s  max_delay=  0.0s  pu_eta=    infs  score=-4.13
+  │  #2  taxi=   t_3  pu_idx=1  do_idx=3  +route=  +0.0s  max_delay=  0.0s  pu_eta=    infs  score=-4.13
+  │  #3  taxi=   t_3  pu_idx=1  do_idx=4  +route=  +0.0s  max_delay=  0.0s  pu_eta=    infs  score=-4.13
+  │  #4  taxi=   t_3  pu_idx=1  do_idx=5  +route=  +0.0s  max_delay=  0.0s  pu_eta=    infs  score=-4.13
+  │  #5  taxi=   t_3  pu_idx=2  do_idx=3  +route=  +0.0s  max_delay=  0.0s  pu_eta=    infs  score=-4.13
+  └──────────────────────────────────────────────────────────────────────
+  → ASSIGNED req=19 → taxi=t_3  pu_eta=infs  (flush pending)
+
+  ┌─ TOP-5 CANDIDATES for request 20 (person 20) waited 0.0s ─┐
+  │  #1  taxi=   t_1  pu_idx=6  do_idx=7  +route=  +0.0s  max_delay=  0.0s  pu_eta=  807.9s  score=-4.11
+  │  #2  taxi=   t_3  pu_idx=1  do_idx=2  +route=  +0.0s  max_delay=  0.0s  pu_eta=    infs  score=-4.11
+  │  #3  taxi=   t_3  pu_idx=1  do_idx=3  +route=  +0.0s  max_delay=  0.0s  pu_eta=    infs  score=-4.11
+  │  #4  taxi=   t_3  pu_idx=1  do_idx=4  +route=  +0.0s  max_delay=  0.0s  pu_eta=    infs  score=-4.12
+  │  #5  taxi=   t_3  pu_idx=1  do_idx=5  +route=  +0.0s  max_delay=  0.0s  pu_eta=    infs  score=-4.12
+  └──────────────────────────────────────────────────────────────────────
+  → ASSIGNED req=20 → taxi=t_1  pu_eta=807.9s  (flush pending)
+  → DISPATCHED taxi=t_1 reservations=['4', '7', '4', '7', '17', '17', '20', '20']
+  → DISPATCHED taxi=t_17 reservations=['15', '18', '18', '16', '16', '15', '13', '13', '12', '12', '11', '11', '10', '10', '9', '9', '8', '8', '6', '6', '0']
+  → DISPATCHED taxi=t_3 reservations=['3', '19', '19', '14', '14', '3']
+  [NEW REQUEST] person=21  res=21  775140683#1 → 1253111317  direct_tt=38.0s
+New arrivals: ['21'], pickups: [], dropoffs: []
+
+════════════════════════════════════════════════════════════════════════
+  TICK #0023  t=   230.0s  [MEANINGFUL]
+  Events this tick:
+    + Arrivals  : ['21']
+  Requests  : pending=1  assigned=20  onboard=1  completed=0
+  Wait times: avg=0.0s  max=0.0s
+  Fleet     : active=5  idle=15  total=20
+    taxi    t_0: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_1: PICKUP                 load=0  stops=[Stop(PU req=4 eta=272.8s)  Stop(PU req=7 eta=272.8s)  Stop(DO req=4 eta=328.9s)  Stop(DO req=7 eta=419.4s)  Stop(PU req=17 eta=620.0s)  Stop(DO req=17 eta=724.1s)  Stop(PU req=20 eta=815.3s)  Stop(DO req=20 eta=957.8s)]
+    taxi   t_10: IDLE                   load=0  stops=[(no stops)]
+    taxi   t_11: IDLE                   load=0  stops=[(no stops)]
+    taxi   t_12: IDLE                   load=0  stops=[(no stops)]
+    taxi   t_13: IDLE                   load=0  stops=[(no stops)]
+    taxi   t_14: PICKUP                 load=0  stops=[Stop(PU req=2 eta=311.7s)  Stop(DO req=2 eta=408.9s)]
+    taxi   t_15: IDLE                   load=0  stops=[(no stops)]
+    taxi   t_16: PICKUP                 load=0  stops=[Stop(PU req=1 eta=354.7s)  Stop(DO req=1 eta=489.0s)  Stop(PU req=5 eta=574.7s)  Stop(DO req=5 eta=693.6s)]
+    taxi   t_17: PICKUP_AND_OCCUPIED    load=1  stops=[Stop(PU req=15 eta=infs)  Stop(PU req=18 eta=infs)  Stop(DO req=18 eta=infs)  Stop(PU req=16 eta=infs)  Stop(DO req=16 eta=infs)  Stop(DO req=15 eta=infs)  Stop(PU req=13 eta=infs)  Stop(DO req=13 eta=infs)  Stop(PU req=12 eta=infs)  Stop(DO req=12 eta=infs)  Stop(PU req=11 eta=infs)  Stop(DO req=11 eta=infs)  Stop(PU req=10 eta=infs)  Stop(DO req=10 eta=infs)  Stop(PU req=9 eta=infs)  Stop(DO req=9 eta=infs)  Stop(PU req=8 eta=infs)  Stop(DO req=8 eta=infs)  Stop(PU req=6 eta=infs)  Stop(DO req=6 eta=infs)  Stop(DO req=0 eta=infs)]
+    taxi   t_18: IDLE                   load=0  stops=[(no stops)]
+    taxi   t_19: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_2: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_3: PICKUP                 load=0  stops=[Stop(PU req=3 eta=infs)  Stop(PU req=19 eta=infs)  Stop(DO req=19 eta=infs)  Stop(PU req=14 eta=infs)  Stop(DO req=14 eta=infs)  Stop(DO req=3 eta=infs)]
+    taxi    t_4: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_5: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_6: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_7: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_8: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_9: IDLE                   load=0  stops=[(no stops)]
+  Interval accumulator: Accumulator(wait=0.0ps ride=0.0s empty=468.7m done=0 violations=0 dt=10.0s)
+════════════════════════════════════════════════════════════════════════
+  Replanable taxis this tick: ['t_0', 't_1', 't_10', 't_11', 't_12', 't_13', 't_14', 't_15', 't_16', 't_17', 't_18', 't_19', 't_2', 't_3', 't_4', 't_5', 't_6', 't_7', 't_8', 't_9']
+  Future taxi stop plans:
+    t_0: []
+    t_1: [PU(4)@272.8, PU(7)@272.8, DO(4)@328.9, DO(7)@419.4, PU(17)@620.0, DO(17)@724.1, PU(20)@815.3, DO(20)@957.8]
+    t_10: []
+    t_11: []
+    t_12: []
+    t_13: []
+    t_14: [PU(2)@311.7, DO(2)@408.9]
+    t_15: []
+    t_16: [PU(1)@354.7, DO(1)@489.0, PU(5)@574.7, DO(5)@693.6]
+    t_17: [PU(15)@inf, PU(18)@inf, DO(18)@inf, PU(16)@inf, DO(16)@inf, DO(15)@inf, PU(13)@inf, DO(13)@inf, PU(12)@inf, DO(12)@inf, PU(11)@inf, DO(11)@inf, PU(10)@inf, DO(10)@inf, PU(9)@inf, DO(9)@inf, PU(8)@inf, DO(8)@inf, PU(6)@inf, DO(6)@inf, DO(0)@inf]
+    t_18: []
+    t_19: []
+    t_2: []
+    t_3: [PU(3)@inf, PU(19)@inf, DO(19)@inf, PU(14)@inf, DO(14)@inf, DO(3)@inf]
+    t_4: []
+    t_5: []
+    t_6: []
+    t_7: []
+    t_8: []
+    t_9: []
+
+  ┌─ TOP-5 CANDIDATES for request 21 (person 21) waited 0.0s ─┐
+  │  #1  taxi=   t_0  pu_idx=0  do_idx=1  +route=  +0.0s  max_delay=  0.0s  pu_eta=  405.2s [ACTIVATES IDLE TAXI]  score=-4.16
+  │  #2  taxi=   t_3  pu_idx=1  do_idx=2  +route=  +0.0s  max_delay=  0.0s  pu_eta=    infs  score=-9.44
+  │  #3  taxi=   t_3  pu_idx=1  do_idx=3  +route=  +0.0s  max_delay=  0.0s  pu_eta=    infs  score=-9.44
+  │  #4  taxi=   t_3  pu_idx=1  do_idx=4  +route=  +0.0s  max_delay=  0.0s  pu_eta=    infs  score=-9.44
+  │  #5  taxi=   t_3  pu_idx=1  do_idx=5  +route=  +0.0s  max_delay=  0.0s  pu_eta=    infs  score=-9.44
+  └──────────────────────────────────────────────────────────────────────
+  → ASSIGNED req=21 → taxi=t_0  pu_eta=405.2s  (flush pending)
+  → DISPATCHED taxi=t_0 reservations=['21', '21']
+  [NEW REQUEST] person=22  res=22  -25717491 → 207839154#0  direct_tt=56.7s
+  [NEW REQUEST] person=23  res=23  371128542#1 → 495024963#9  direct_tt=100.2s
+  [NEW REQUEST] person=24  res=24  210983363 → -344410516  direct_tt=305.2s
+New arrivals: ['22', '23', '24'], pickups: [], dropoffs: []
+
+════════════════════════════════════════════════════════════════════════
+  TICK #0024  t=   240.0s  [MEANINGFUL]
+  Events this tick:
+    + Arrivals  : ['22', '23', '24']
+  Requests  : pending=3  assigned=21  onboard=1  completed=0
+  Wait times: avg=0.0s  max=0.0s
+  Fleet     : active=6  idle=14  total=20
+    taxi    t_0: PICKUP                 load=0  stops=[Stop(PU req=21 eta=415.8s)  Stop(DO req=21 eta=453.8s)]
+    taxi    t_1: PICKUP                 load=0  stops=[Stop(PU req=4 eta=273.2s)  Stop(PU req=7 eta=273.2s)  Stop(DO req=4 eta=329.3s)  Stop(DO req=7 eta=419.8s)  Stop(PU req=17 eta=620.4s)  Stop(DO req=17 eta=724.5s)  Stop(PU req=20 eta=815.6s)  Stop(DO req=20 eta=958.2s)]
+    taxi   t_10: IDLE                   load=0  stops=[(no stops)]
+    taxi   t_11: IDLE                   load=0  stops=[(no stops)]
+    taxi   t_12: IDLE                   load=0  stops=[(no stops)]
+    taxi   t_13: IDLE                   load=0  stops=[(no stops)]
+    taxi   t_14: PICKUP                 load=0  stops=[Stop(PU req=2 eta=311.0s)  Stop(DO req=2 eta=408.2s)]
+    taxi   t_15: IDLE                   load=0  stops=[(no stops)]
+    taxi   t_16: PICKUP                 load=0  stops=[Stop(PU req=1 eta=364.8s)  Stop(DO req=1 eta=499.0s)  Stop(PU req=5 eta=584.8s)  Stop(DO req=5 eta=703.6s)]
+    taxi   t_17: PICKUP_AND_OCCUPIED    load=1  stops=[Stop(PU req=15 eta=infs)  Stop(PU req=18 eta=infs)  Stop(DO req=18 eta=infs)  Stop(PU req=16 eta=infs)  Stop(DO req=16 eta=infs)  Stop(DO req=15 eta=infs)  Stop(PU req=13 eta=infs)  Stop(DO req=13 eta=infs)  Stop(PU req=12 eta=infs)  Stop(DO req=12 eta=infs)  Stop(PU req=11 eta=infs)  Stop(DO req=11 eta=infs)  Stop(PU req=10 eta=infs)  Stop(DO req=10 eta=infs)  Stop(PU req=9 eta=infs)  Stop(DO req=9 eta=infs)  Stop(PU req=8 eta=infs)  Stop(DO req=8 eta=infs)  Stop(PU req=6 eta=infs)  Stop(DO req=6 eta=infs)  Stop(DO req=0 eta=infs)]
+    taxi   t_18: IDLE                   load=0  stops=[(no stops)]
+    taxi   t_19: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_2: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_3: PICKUP                 load=0  stops=[Stop(PU req=3 eta=infs)  Stop(PU req=19 eta=infs)  Stop(DO req=19 eta=infs)  Stop(PU req=14 eta=infs)  Stop(DO req=14 eta=infs)  Stop(DO req=3 eta=infs)]
+    taxi    t_4: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_5: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_6: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_7: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_8: IDLE                   load=0  stops=[(no stops)]
+    taxi    t_9: IDLE                   load=0  stops=[(no stops)]
+  Interval accumulator: Accumulator(wait=0.0ps ride=0.0s empty=550.9m done=0 violations=0 dt=10.0s)
+════════════════════════════════════════════════════════════════════════
+  Replanable taxis this tick: ['t_0', 't_1', 't_10', 't_11', 't_12', 't_13', 't_14', 't_15', 't_16', 't_17', 't_18', 't_19', 't_2', 't_3', 't_4', 't_5', 't_6', 't_7', 't_8', 't_9']
+  Future taxi stop plans:
+    t_0: [PU(21)@415.8, DO(21)@453.8]
+    t_1: [PU(4)@273.2, PU(7)@273.2, DO(4)@329.3, DO(7)@419.8, PU(17)@620.4, DO(17)@724.5, PU(20)@815.6, DO(20)@958.2]
+    t_10: []
+    t_11: []
+    t_12: []
+    t_13: []
+    t_14: [PU(2)@311.0, DO(2)@408.2]
+    t_15: []
+    t_16: [PU(1)@364.8, DO(1)@499.0, PU(5)@584.8, DO(5)@703.6]
+    t_17: [PU(15)@inf, PU(18)@inf, DO(18)@inf, PU(16)@inf, DO(16)@inf, DO(15)@inf, PU(13)@inf, DO(13)@inf, PU(12)@inf, DO(12)@inf, PU(11)@inf, DO(11)@inf, PU(10)@inf, DO(10)@inf, PU(9)@inf, DO(9)@inf, PU(8)@inf, DO(8)@inf, PU(6)@inf, DO(6)@inf, DO(0)@inf]
+    t_18: []
+    t_19: []
+    t_2: []
+    t_3: [PU(3)@inf, PU(19)@inf, DO(19)@inf, PU(14)@inf, DO(14)@inf, DO(3)@inf]
+    t_4: []
+    t_5: []
+    t_6: []
+    t_7: []
+    t_8: []
+    t_9: []
+
+  ┌─ TOP-5 CANDIDATES for request 22 (person 22) waited 0.0s ─┐
+  │  #1  taxi=   t_0  pu_idx=1  do_idx=2  +route=+380.0s  max_delay=380.0s  pu_eta=  655.5s  score=-10.94
+  │  #2  taxi=   t_0  pu_idx=1  do_idx=3  +route=+372.5s  max_delay=372.5s  pu_eta=  655.5s  score=-11.95
+  │  #3  taxi=   t_0  pu_idx=2  do_idx=3  +route=  +0.0s  max_delay=  0.0s  pu_eta=    infs  score=-11.95
+  │  #4  taxi=   t_1  pu_idx=4  do_idx=5  +route=  +0.0s  max_delay=206.0s  pu_eta=  536.3s  score=-11.95
+  │  #5  taxi=   t_1  pu_idx=4  do_idx=7  +route=  +0.0s  max_delay=117.3s  pu_eta=  536.3s  score=-11.95
+  └──────────────────────────────────────────────────────────────────────
+  → ASSIGNED req=22 → taxi=t_0  pu_eta=655.5s  (flush pending)
+
+  ┌─ TOP-5 CANDIDATES for request 23 (person 23) waited 0.0s ─┐
+  │  #1  taxi=   t_1  pu_idx=3  do_idx=9  +route=  +6.4s  max_delay=  6.4s  pu_eta=  357.6s  score=-11.65
+  │  #2  taxi=   t_0  pu_idx=1  do_idx=5  +route=+146.9s  max_delay=146.9s  pu_eta=  628.6s  score=-11.96
+  │  #3  taxi=   t_0  pu_idx=1  do_idx=2  +route=+186.5s  max_delay=186.5s  pu_eta=  628.6s  score=-11.96
+  │  #4  taxi=   t_0  pu_idx=3  do_idx=5  +route=+111.2s  max_delay=111.2s  pu_eta=  834.6s  score=-11.96
+  │  #5  taxi=   t_0  pu_idx=1  do_idx=4  +route=+308.2s  max_delay=308.2s  pu_eta=  628.6s  score=-11.96
+  └──────────────────────────────────────────────────────────────────────
+  → ASSIGNED req=23 → taxi=t_1  pu_eta=357.6s  (flush pending)
+
+  [INFO] Interrupted by user.
+
+  Full log saved to: dispatcher_20260402_112252.log
